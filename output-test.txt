@@ -1,88 +1,40 @@
 [INFO] Scanning for projects...
 [INFO] 
-[INFO] -----------------< ec.edu.ug.gcs.grupod:maven-project >-----------------
-[INFO] Building maven-project 1.0-SNAPSHOT
+[INFO] -------------------< ec.edu.ug.gcs.grupod:depcheck >--------------------
+[INFO] Building depcheck 1.0.0
 [INFO]   from pom.xml
 [INFO] --------------------------------[ jar ]---------------------------------
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/64/commons-parent-64.pom
-Progress (1): 706 BProgress (1): 1.6 kBProgress (1): 2.8 kBProgress (1): 4.3 kBProgress (1): 5.2 kBProgress (1): 7.5 kBProgress (1): 9.0 kBProgress (1): 10 kB Progress (1): 13 kBProgress (1): 15 kBProgress (1): 17 kBProgress (1): 19 kBProgress (1): 23 kBProgress (1): 24 kBProgress (1): 27 kBProgress (1): 30 kBProgress (1): 32 kBProgress (1): 36 kBProgress (1): 41 kBProgress (1): 43 kBProgress (1): 46 kBProgress (1): 48 kBProgress (1): 50 kBProgress (1): 52 kBProgress (1): 56 kBProgress (1): 58 kBProgress (1): 60 kBProgress (1): 64 kBProgress (1): 66 kBProgress (1): 70 kBProgress (1): 73 kBProgress (1): 75 kBProgress (1): 77 kBProgress (1): 78 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/64/commons-parent-64.pom (78 kB at 57 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.11.3/junit-jupiter-5.11.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.11.3/junit-jupiter-5.11.3.pom (3.2 kB at 1.6 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.11.3/junit-jupiter-api-5.11.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.11.3/junit-jupiter-api-5.11.3.pom (3.2 kB at 20 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.11.3/junit-platform-commons-1.11.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.11.3/junit-platform-commons-1.11.3.pom (2.8 kB at 23 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.11.3/junit-jupiter-params-5.11.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.11.3/junit-jupiter-params-5.11.3.pom (3.0 kB at 11 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.11.3/junit-jupiter-engine-5.11.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.11.3/junit-jupiter-engine-5.11.3.pom (3.2 kB at 22 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.11.3/junit-platform-engine-1.11.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.11.3/junit-platform-engine-1.11.3.pom (3.2 kB at 28 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.11.3/junit-jupiter-5.11.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.11.3/junit-jupiter-5.11.3.jar (6.4 kB at 45 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.11.3/junit-jupiter-api-5.11.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.11.3/junit-platform-commons-1.11.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.11.3/junit-jupiter-params-5.11.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.11.3/junit-jupiter-engine-5.11.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.11.3/junit-platform-engine-1.11.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.11.3/junit-platform-commons-1.11.3.jar (142 kB at 391 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.11.3/junit-jupiter-engine-5.11.3.jar (260 kB at 570 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.11.3/junit-jupiter-api-5.11.3.jar (216 kB at 376 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.11.3/junit-platform-engine-1.11.3.jar (247 kB at 311 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.11.3/junit-jupiter-params-5.11.3.jar (592 kB at 480 kB/s)
 [INFO] 
-[INFO] --- resources:3.3.1:resources (default-resources) @ maven-project ---
-Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.7.1/junit-bom-5.7.1.pom
-Progress (1): 912 BProgress (1): 2.2 kBProgress (1): 5.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.7.1/junit-bom-5.7.1.pom (5.1 kB at 50 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.jar
-Progress (1): 0.9/85 kBProgress (1): 2.3/85 kBProgress (1): 3.6/85 kBProgress (1): 5.0/85 kBProgress (1): 6.4/85 kBProgress (1): 7.7/85 kBProgress (1): 9.1/85 kBProgress (1): 10/85 kB Progress (1): 12/85 kBProgress (1): 13/85 kBProgress (1): 15/85 kBProgress (1): 16/85 kBProgress (1): 17/85 kBProgress (1): 19/85 kBProgress (1): 20/85 kBProgress (1): 21/85 kBProgress (1): 23/85 kBProgress (1): 24/85 kBProgress (1): 26/85 kBProgress (1): 27/85 kBProgress (1): 28/85 kBProgress (1): 30/85 kBProgress (1): 31/85 kBProgress (1): 32/85 kBProgress (1): 34/85 kBProgress (1): 38/85 kBProgress (1): 42/85 kBProgress (1): 46/85 kBProgress (1): 51/85 kBProgress (1): 55/85 kBProgress (1): 57/85 kBProgress (1): 61/85 kBProgress (1): 65/85 kBProgress (1): 70/85 kBProgress (1): 74/85 kBProgress (1): 78/85 kBProgress (1): 82/85 kBProgress (1): 85 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.jar (85 kB at 499 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.3.1/maven-filtering-3.3.1.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.jar
-Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar
-Progress (1): 3.1/269 kBProgress (1): 7.4/269 kBProgress (1): 12/269 kB Progress (1): 16/269 kBProgress (2): 16/269 kB | 0.9/8.5 kBProgress (2): 20/269 kB | 0.9/8.5 kBProgress (2): 24/269 kB | 0.9/8.5 kBProgress (2): 29/269 kB | 0.9/8.5 kBProgress (2): 29/269 kB | 2.3/8.5 kBProgress (2): 29/269 kB | 3.6/8.5 kBProgress (2): 29/269 kB | 5.0/8.5 kBProgress (2): 29/269 kB | 6.4/8.5 kBProgress (2): 29/269 kB | 7.7/8.5 kBProgress (2): 29/269 kB | 8.5 kB    Progress (2): 33/269 kB | 8.5 kBProgress (2): 37/269 kB | 8.5 kBProgress (2): 41/269 kB | 8.5 kB                                Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.jar (8.5 kB at 59 kB/s)
-Progress (1): 45/269 kBProgress (1): 50/269 kBProgress (1): 54/269 kBProgress (1): 58/269 kBProgress (1): 60/269 kBProgress (1): 65/269 kBProgress (1): 69/269 kBProgress (1): 73/269 kBProgress (1): 77/269 kBProgress (1): 82/269 kBProgress (1): 86/269 kBProgress (1): 90/269 kBProgress (1): 94/269 kBProgress (1): 99/269 kBProgress (1): 103/269 kBProgress (1): 107/269 kBProgress (1): 111/269 kBProgress (1): 126/269 kBProgress (1): 142/269 kBProgress (2): 142/269 kB | 1.4/55 kBProgress (2): 142/269 kB | 2.7/55 kBProgress (2): 142/269 kB | 4.1/55 kBProgress (2): 142/269 kB | 5.5/55 kBProgress (2): 142/269 kB | 6.8/55 kBProgress (2): 142/269 kB | 8.2/55 kBProgress (2): 142/269 kB | 9.6/55 kBProgress (2): 142/269 kB | 11/55 kB Progress (2): 142/269 kB | 12/55 kBProgress (2): 142/269 kB | 14/55 kBProgress (2): 142/269 kB | 15/55 kBProgress (2): 142/269 kB | 16/55 kBProgress (2): 142/269 kB | 18/55 kBProgress (2): 142/269 kB | 19/55 kBProgress (2): 142/269 kB | 21/55 kBProgress (2): 142/269 kB | 22/55 kBProgress (2): 142/269 kB | 23/55 kBProgress (2): 142/269 kB | 25/55 kBProgress (2): 142/269 kB | 26/55 kBProgress (2): 142/269 kB | 27/55 kBProgress (2): 142/269 kB | 29/55 kBProgress (2): 142/269 kB | 30/55 kBProgress (2): 142/269 kB | 31/55 kBProgress (2): 142/269 kB | 33/55 kBProgress (2): 142/269 kB | 34/55 kBProgress (2): 142/269 kB | 36/55 kBProgress (2): 142/269 kB | 37/55 kBProgress (2): 159/269 kB | 37/55 kBProgress (2): 175/269 kB | 37/55 kBProgress (2): 175/269 kB | 38/55 kBProgress (2): 175/269 kB | 40/55 kBProgress (2): 175/269 kB | 41/55 kBProgress (2): 175/269 kB | 42/55 kBProgress (2): 175/269 kB | 44/55 kBProgress (2): 175/269 kB | 45/55 kBProgress (2): 175/269 kB | 46/55 kBProgress (2): 175/269 kB | 48/55 kBProgress (2): 175/269 kB | 49/55 kBProgress (2): 175/269 kB | 51/55 kBProgress (2): 175/269 kB | 52/55 kBProgress (2): 175/269 kB | 53/55 kBProgress (2): 175/269 kB | 55/55 kBProgress (2): 175/269 kB | 55 kB                                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.3.1/maven-filtering-3.3.1.jar (55 kB at 233 kB/s)
-Progress (1): 192/269 kBProgress (1): 208/269 kBProgress (1): 224/269 kBProgress (1): 241/269 kBProgress (1): 257/269 kBProgress (1): 269 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar (269 kB at 929 kB/s)
-Progress (1): 0.9/327 kBProgress (1): 2.3/327 kBProgress (1): 3.6/327 kBProgress (1): 5.0/327 kBProgress (1): 6.4/327 kBProgress (1): 7.7/327 kBProgress (1): 9.1/327 kBProgress (1): 10/327 kB Progress (1): 12/327 kBProgress (1): 13/327 kBProgress (1): 15/327 kBProgress (1): 16/327 kBProgress (1): 17/327 kBProgress (1): 19/327 kBProgress (1): 20/327 kBProgress (1): 21/327 kBProgress (1): 23/327 kBProgress (1): 24/327 kBProgress (1): 25/327 kBProgress (1): 26/327 kBProgress (1): 27/327 kBProgress (1): 29/327 kBProgress (1): 30/327 kBProgress (2): 30/327 kB | 0.9/587 kBProgress (2): 30/327 kB | 2.3/587 kBProgress (2): 31/327 kB | 2.3/587 kBProgress (2): 31/327 kB | 3.6/587 kBProgress (2): 33/327 kB | 3.6/587 kBProgress (2): 33/327 kB | 5.0/587 kBProgress (2): 34/327 kB | 5.0/587 kBProgress (2): 34/327 kB | 6.4/587 kBProgress (2): 36/327 kB | 6.4/587 kBProgress (2): 36/327 kB | 7.7/587 kBProgress (2): 36/327 kB | 9.1/587 kBProgress (2): 37/327 kB | 9.1/587 kBProgress (2): 38/327 kB | 9.1/587 kBProgress (2): 40/327 kB | 9.1/587 kBProgress (2): 41/327 kB | 9.1/587 kBProgress (2): 41/327 kB | 10/587 kB Progress (2): 41/327 kB | 12/587 kBProgress (2): 42/327 kB | 12/587 kBProgress (2): 44/327 kB | 12/587 kBProgress (2): 44/327 kB | 13/587 kBProgress (2): 45/327 kB | 13/587 kBProgress (2): 45/327 kB | 15/587 kBProgress (2): 46/327 kB | 15/587 kBProgress (2): 46/327 kB | 16/587 kBProgress (2): 48/327 kB | 16/587 kBProgress (2): 48/327 kB | 17/587 kBProgress (2): 49/327 kB | 17/587 kBProgress (2): 49/327 kB | 19/587 kBProgress (2): 51/327 kB | 19/587 kBProgress (2): 51/327 kB | 20/587 kBProgress (2): 51/327 kB | 21/587 kBProgress (2): 52/327 kB | 21/587 kBProgress (2): 53/327 kB | 21/587 kBProgress (2): 55/327 kB | 21/587 kBProgress (2): 59/327 kB | 21/587 kBProgress (2): 59/327 kB | 23/587 kBProgress (2): 59/327 kB | 24/587 kBProgress (2): 59/327 kB | 25/587 kBProgress (2): 59/327 kB | 27/587 kBProgress (2): 59/327 kB | 28/587 kBProgress (2): 59/327 kB | 30/587 kBProgress (2): 59/327 kB | 31/587 kBProgress (2): 59/327 kB | 32/587 kBProgress (2): 59/327 kB | 34/587 kBProgress (2): 59/327 kB | 35/587 kBProgress (2): 63/327 kB | 35/587 kBProgress (2): 67/327 kB | 35/587 kBProgress (2): 67/327 kB | 36/587 kBProgress (2): 67/327 kB | 38/587 kBProgress (2): 67/327 kB | 39/587 kBProgress (2): 67/327 kB | 41/587 kBProgress (2): 67/327 kB | 42/587 kBProgress (2): 67/327 kB | 43/587 kBProgress (2): 67/327 kB | 45/587 kBProgress (2): 67/327 kB | 46/587 kBProgress (2): 67/327 kB | 47/587 kBProgress (2): 67/327 kB | 49/587 kBProgress (2): 67/327 kB | 50/587 kBProgress (2): 67/327 kB | 51/587 kBProgress (2): 67/327 kB | 53/587 kBProgress (2): 67/327 kB | 54/587 kBProgress (2): 67/327 kB | 56/587 kBProgress (2): 67/327 kB | 60/587 kBProgress (2): 67/327 kB | 64/587 kBProgress (2): 67/327 kB | 68/587 kBProgress (2): 72/327 kB | 68/587 kBProgress (2): 76/327 kB | 68/587 kBProgress (2): 80/327 kB | 68/587 kBProgress (2): 84/327 kB | 68/587 kBProgress (2): 89/327 kB | 68/587 kBProgress (2): 89/327 kB | 73/587 kBProgress (2): 89/327 kB | 77/587 kBProgress (2): 89/327 kB | 81/587 kBProgress (2): 89/327 kB | 85/587 kBProgress (2): 89/327 kB | 89/587 kBProgress (2): 93/327 kB | 89/587 kBProgress (2): 97/327 kB | 89/587 kBProgress (2): 101/327 kB | 89/587 kBProgress (2): 101/327 kB | 94/587 kBProgress (2): 105/327 kB | 94/587 kBProgress (2): 110/327 kB | 94/587 kBProgress (2): 114/327 kB | 94/587 kBProgress (2): 114/327 kB | 98/587 kBProgress (2): 114/327 kB | 102/587 kBProgress (2): 114/327 kB | 106/587 kBProgress (2): 114/327 kB | 111/587 kBProgress (2): 114/327 kB | 115/587 kBProgress (2): 114/327 kB | 119/587 kBProgress (2): 114/327 kB | 122/587 kBProgress (2): 114/327 kB | 127/587 kBProgress (2): 114/327 kB | 131/587 kBProgress (2): 118/327 kB | 131/587 kBProgress (2): 122/327 kB | 131/587 kBProgress (2): 127/327 kB | 131/587 kBProgress (2): 131/327 kB | 131/587 kBProgress (2): 135/327 kB | 131/587 kBProgress (2): 135/327 kB | 135/587 kBProgress (2): 139/327 kB | 135/587 kBProgress (2): 144/327 kB | 135/587 kBProgress (2): 148/327 kB | 135/587 kBProgress (2): 152/327 kB | 135/587 kBProgress (2): 152/327 kB | 139/587 kBProgress (2): 152/327 kB | 144/587 kBProgress (2): 152/327 kB | 148/587 kBProgress (2): 152/327 kB | 152/587 kBProgress (2): 156/327 kB | 152/587 kBProgress (2): 160/327 kB | 152/587 kBProgress (2): 160/327 kB | 156/587 kBProgress (2): 164/327 kB | 156/587 kBProgress (2): 164/327 kB | 160/587 kBProgress (2): 164/327 kB | 165/587 kBProgress (2): 164/327 kB | 169/587 kBProgress (2): 164/327 kB | 173/587 kBProgress (2): 168/327 kB | 173/587 kBProgress (2): 173/327 kB | 173/587 kBProgress (2): 177/327 kB | 173/587 kBProgress (2): 181/327 kB | 173/587 kBProgress (2): 185/327 kB | 173/587 kBProgress (2): 185/327 kB | 177/587 kBProgress (2): 185/327 kB | 182/587 kBProgress (2): 189/327 kB | 182/587 kBProgress (2): 194/327 kB | 182/587 kBProgress (2): 198/327 kB | 182/587 kBProgress (2): 202/327 kB | 182/587 kBProgress (2): 206/327 kB | 182/587 kBProgress (2): 211/327 kB | 182/587 kBProgress (2): 215/327 kB | 182/587 kBProgress (2): 219/327 kB | 182/587 kBProgress (2): 223/327 kB | 182/587 kBProgress (2): 240/327 kB | 182/587 kBProgress (2): 256/327 kB | 182/587 kBProgress (2): 256/327 kB | 186/587 kBProgress (2): 256/327 kB | 190/587 kBProgress (2): 256/327 kB | 194/587 kBProgress (2): 256/327 kB | 199/587 kBProgress (2): 256/327 kB | 203/587 kBProgress (2): 256/327 kB | 207/587 kBProgress (2): 256/327 kB | 211/587 kBProgress (2): 256/327 kB | 215/587 kBProgress (2): 256/327 kB | 220/587 kBProgress (2): 256/327 kB | 224/587 kBProgress (2): 272/327 kB | 224/587 kBProgress (2): 287/327 kB | 224/587 kBProgress (2): 287/327 kB | 240/587 kBProgress (2): 287/327 kB | 253/587 kBProgress (2): 287/327 kB | 257/587 kBProgress (2): 287/327 kB | 273/587 kBProgress (2): 303/327 kB | 273/587 kBProgress (2): 303/327 kB | 289/587 kBProgress (2): 319/327 kB | 289/587 kBProgress (2): 327 kB | 289/587 kB    Progress (2): 327 kB | 306/587 kB                                 Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar (327 kB at 602 kB/s)
-Progress (1): 322/587 kBProgress (1): 339/587 kBProgress (1): 355/587 kBProgress (1): 371/587 kBProgress (1): 385/587 kBProgress (1): 401/587 kBProgress (1): 417/587 kBProgress (1): 434/587 kBProgress (1): 450/587 kBProgress (1): 466/587 kBProgress (1): 483/587 kBProgress (1): 499/587 kBProgress (1): 516/587 kBProgress (1): 532/587 kBProgress (1): 548/587 kBProgress (1): 565/587 kBProgress (1): 581/587 kBProgress (1): 587 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar (587 kB at 946 kB/s)
-[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] --- resources:3.3.1:resources (default-resources) @ depcheck ---
+[INFO] Copying 3 resources from src/main/resources to target/classes
 [INFO] 
-[INFO] --- compiler:3.13.0:compile (default-compile) @ maven-project ---
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/23/maven-parent-23.pom
-Progress (1): 726 BProgress (1): 2.0 kBProgress (1): 5.9 kBProgress (1): 10 kB Progress (1): 15 kBProgress (1): 19 kBProgress (1): 22 kBProgress (1): 25 kBProgress (1): 27 kBProgress (1): 31 kBProgress (1): 33 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/23/maven-parent-23.pom (33 kB at 339 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/13/apache-13.pom
-Progress (1): 749 BProgress (1): 2.1 kBProgress (1): 4.1 kBProgress (1): 9.0 kBProgress (1): 11 kB Progress (1): 14 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/13/apache-13.pom (14 kB at 154 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.2.0/plexus-java-1.2.0.pom
-Progress (1): 1.9 kBProgress (1): 4.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.2.0/plexus-java-1.2.0.pom (4.3 kB at 49 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-languages/1.2.0/plexus-languages-1.2.0.pom
-Progress (1): 1.3 kBProgress (1): 3.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-languages/1.2.0/plexus-languages-1.2.0.pom (3.2 kB at 35 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/15/plexus-15.pom
-Progress (1): 798 BProgress (1): 2.8 kBProgress (1): 6.8 kBProgress (1): 8.8 kBProgress (1): 11 kB Progress (1): 14 kBProgress (1): 18 kBProgress (1): 21 kBProgress (1): 25 kBProgress (1): 28 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/15/plexus-15.pom (28 kB at 296 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.6/asm-9.6.pom
-Progress (1): 1.3 kBProgress (1): 2.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.6/asm-9.6.pom (2.4 kB at 27 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/ow2/1.5.1/ow2-1.5.1.pom
-Progress (1): 709 BProgress (1): 2.1 kBProgress (1): 3.6 kBProgress (1): 5.7 kBProgress (1): 8.1 kBProgress (1): 11 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/ow2/1.5.1/ow2-1.5.1.pom (11 kB at 128 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0.3/qdox-2.0.3.pom
-Progress (1): 872 BProgress (1): 3.4 kBProgress (1): 6.6 kBProgress (1): 11 kB Progress (1): 13 kBProgress (1): 17 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0.3/qdox-2.0.3.pom (17 kB at 187 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
-Progress (1): 838 BProgress (1): 2.7 kBProgress (1): 6.5 kBProgress (1): 6.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.pom (6.6 kB at 72 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.15.0/plexus-compiler-api-2.15.0.pom
-Progress (1): 1.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.15.0/plexus-compiler-api-2.15.0.pom (1.4 kB at 15 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.15.0/plexus-compiler-2.15.0.pom
-Progress (1): 1.2 kBProgress (1): 4.5 kBProgress (1): 7.6 kBProgress (1): 7.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.15.0/plexus-compiler-2.15.0.pom (7.6 kB at 81 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/17/plexus-17.pom
-Progress (1): 691 BProgress (1): 2.5 kBProgress (1): 6.4 kBProgress (1): 8.9 kBProgress (1): 11 kB Progress (1): 14 kBProgress (1): 19 kBProgress (1): 21 kBProgress (1): 25 kBProgress (1): 28 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/17/plexus-17.pom (28 kB at 303 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/4.0.0/plexus-utils-4.0.0.pom
-Progress (1): 724 BProgress (1): 2.3 kBProgress (1): 4.5 kBProgress (1): 8.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/4.0.0/plexus-utils-4.0.0.pom (8.7 kB at 96 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/13/plexus-13.pom
-Progress (1): 693 BProgress (1): 2.5 kBProgress (1): 6.4 kBProgress (1): 8.9 kBProgress (1): 11 kB Progress (1): 14 kBProgress (1): 18 kBProgress (1): 21 kBProgress (1): 26 kBProgress (1): 27 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/13/plexus-13.pom (27 kB at 315 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.9.3/junit-bom-5.9.3.pom
-Progress (1): 907 BProgress (1): 4.1 kBProgress (1): 5.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.9.3/junit-bom-5.9.3.pom (5.6 kB at 59 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.15.0/plexus-compiler-manager-2.15.0.pom
-Progress (1): 1.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.15.0/plexus-compiler-manager-2.15.0.pom (1.3 kB at 14 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-xml/3.0.0/plexus-xml-3.0.0.pom
-Progress (1): 815 BProgress (1): 2.7 kBProgress (1): 3.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-xml/3.0.0/plexus-xml-3.0.0.pom (3.7 kB at 42 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.15.0/plexus-compiler-javac-2.15.0.pom
-Progress (1): 1.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.15.0/plexus-compiler-javac-2.15.0.pom (1.3 kB at 14 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.15.0/plexus-compilers-2.15.0.pom
-Progress (1): 1.6 kBProgress (1): 1.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.15.0/plexus-compilers-2.15.0.pom (1.6 kB at 12 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.jar
-Progress (1): 7.7/14 kBProgress (1): 11/14 kB Progress (1): 14 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.jar (14 kB at 150 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.2.0/plexus-java-1.2.0.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.6/asm-9.6.jar
-Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0.3/qdox-2.0.3.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.15.0/plexus-compiler-api-2.15.0.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.15.0/plexus-compiler-manager-2.15.0.jar
-Progress (1): 3.8/29 kBProgress (1): 4.1/29 kBProgress (1): 8.3/29 kBProgress (1): 13/29 kB Progress (1): 17/29 kBProgress (1): 21/29 kBProgress (1): 25/29 kBProgress (1): 29 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.15.0/plexus-compiler-api-2.15.0.jar (29 kB at 676 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-xml/3.0.0/plexus-xml-3.0.0.jar
-Progress (1): 0.9/5.2 kBProgress (1): 2.3/5.2 kBProgress (1): 3.6/5.2 kBProgress (1): 5.0/5.2 kBProgress (1): 5.2 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.15.0/plexus-compiler-manager-2.15.0.jar (5.2 kB at 87 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.15.0/plexus-compiler-javac-2.15.0.jar
-Progress (1): 3.8/93 kBProgress (1): 8.0/93 kBProgress (1): 12/93 kB Progress (1): 16/93 kBProgress (1): 21/93 kBProgress (1): 24/93 kBProgress (1): 28/93 kBProgress (1): 33/93 kBProgress (1): 37/93 kBProgress (1): 41/93 kBProgress (1): 45/93 kBProgress (1): 49/93 kBProgress (1): 54/93 kBProgress (1): 58/93 kBProgress (1): 62/93 kBProgress (1): 66/93 kBProgress (1): 71/93 kBProgress (1): 75/93 kBProgress (1): 79/93 kBProgress (1): 83/93 kBProgress (1): 88/93 kBProgress (1): 92/93 kBProgress (1): 93 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-xml/3.0.0/plexus-xml-3.0.0.jar (93 kB at 1.3 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/4.0.0/plexus-utils-4.0.0.jar
-Progress (1): 7.3/124 kBProgress (1): 24/124 kB Progress (1): 40/124 kBProgress (1): 56/124 kBProgress (1): 73/124 kBProgress (2): 73/124 kB | 7.7/58 kBProgress (2): 73/124 kB | 16/58 kB Progress (2): 89/124 kB | 16/58 kBProgress (2): 106/124 kB | 16/58 kBProgress (2): 106/124 kB | 32/58 kBProgress (2): 122/124 kB | 32/58 kBProgress (2): 124 kB | 32/58 kB    Progress (2): 124 kB | 49/58 kBProgress (3): 124 kB | 49/58 kB | 0.9/26 kBProgress (3): 124 kB | 49/58 kB | 2.3/26 kBProgress (3): 124 kB | 58 kB | 2.3/26 kB   Progress (3): 124 kB | 58 kB | 3.6/26 kBProgress (3): 124 kB | 58 kB | 5.0/26 kBProgress (3): 124 kB | 58 kB | 6.4/26 kBProgress (3): 124 kB | 58 kB | 7.7/26 kBProgress (3): 124 kB | 58 kB | 9.1/26 kBProgress (3): 124 kB | 58 kB | 10/26 kB Progress (3): 124 kB | 58 kB | 12/26 kBProgress (3): 124 kB | 58 kB | 13/26 kBProgress (3): 124 kB | 58 kB | 15/26 kBProgress (3): 124 kB | 58 kB | 16/26 kBProgress (3): 124 kB | 58 kB | 17/26 kBProgress (3): 124 kB | 58 kB | 19/26 kBProgress (3): 124 kB | 58 kB | 20/26 kBProgress (3): 124 kB | 58 kB | 21/26 kBProgress (3): 124 kB | 58 kB | 23/26 kB                                       Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.2.0/plexus-java-1.2.0.jar (58 kB at 528 kB/s)
-Progress (2): 124 kB | 24/26 kBProgress (3): 124 kB | 24/26 kB | 7.7/334 kBProgress (3): 124 kB | 24/26 kB | 8.2/334 kBProgress (3): 124 kB | 25/26 kB | 8.2/334 kBProgress (3): 124 kB | 26 kB | 8.2/334 kB   Progress (3): 124 kB | 26 kB | 25/334 kB                                         Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.6/asm-9.6.jar (124 kB at 1.1 MB/s)
-Progress (2): 26 kB | 41/334 kB                               Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.15.0/plexus-compiler-javac-2.15.0.jar (26 kB at 243 kB/s)
-Progress (1): 57/334 kBProgress (1): 74/334 kBProgress (2): 74/334 kB | 3.8/192 kBProgress (2): 90/334 kB | 3.8/192 kBProgress (2): 90/334 kB | 8.0/192 kBProgress (2): 90/334 kB | 12/192 kB Progress (2): 90/334 kB | 16/192 kBProgress (2): 90/334 kB | 21/192 kBProgress (2): 90/334 kB | 25/192 kBProgress (2): 90/334 kB | 29/192 kBProgress (2): 90/334 kB | 33/192 kBProgress (2): 90/334 kB | 50/192 kBProgress (2): 90/334 kB | 66/192 kBProgress (2): 90/334 kB | 83/192 kBProgress (2): 90/334 kB | 99/192 kBProgress (2): 90/334 kB | 115/192 kBProgress (2): 106/334 kB | 115/192 kBProgress (2): 106/334 kB | 131/192 kBProgress (2): 106/334 kB | 147/192 kBProgress (2): 106/334 kB | 163/192 kBProgress (2): 106/334 kB | 180/192 kBProgress (2): 106/334 kB | 192 kB                                     Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/4.0.0/plexus-utils-4.0.0.jar (192 kB at 1.7 MB/s)
-Progress (1): 123/334 kBProgress (1): 139/334 kBProgress (1): 156/334 kBProgress (1): 172/334 kBProgress (1): 188/334 kBProgress (1): 205/334 kBProgress (1): 221/334 kBProgress (1): 238/334 kBProgress (1): 254/334 kBProgress (1): 270/334 kBProgress (1): 287/334 kBProgress (1): 303/334 kBProgress (1): 319/334 kBProgress (1): 334 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0.3/qdox-2.0.3.jar (334 kB at 2.1 MB/s)
+[INFO] --- compiler:3.13.0:compile (default-compile) @ depcheck ---
 [INFO] Recompiling the module because of changed source code.
-[INFO] Compiling 3 source files with javac [debug release 21] to target/classes
+[INFO] Compiling 9 source files with javac [debug release 21] to target/classes
 [INFO] Annotation processing is enabled because one or more processors were found
   on the class path. A future release of javac may disable annotation processing
   unless at least one processor is specified by name (-processor), or a search
@@ -91,12 +43,12 @@ Progress (1): 123/334 kBProgress (1): 139/334 kBProgress (1): 156/334 kBProgr
   Use -Xlint:-options to suppress this message.
   Use -proc:none to disable annotation processing.
 [INFO] 
-[INFO] --- resources:3.3.1:testResources (default-testResources) @ maven-project ---
-[INFO] skip non existing resourceDirectory /mnt/d/Ghosty/kb/university/2026-S1/GCS/maven-project/src/test/resources
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ depcheck ---
+[INFO] skip non existing resourceDirectory /mnt/d/Ghosty/kb/university/2026-S1/GCS/depcheck/src/test/resources
 [INFO] 
-[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ maven-project ---
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ depcheck ---
 [INFO] Recompiling the module because of changed dependency.
-[INFO] Compiling 3 source files with javac [debug release 21] to target/test-classes
+[INFO] Compiling 4 source files with javac [debug release 21] to target/test-classes
 [INFO] Annotation processing is enabled because one or more processors were found
   on the class path. A future release of javac may disable annotation processing
   unless at least one processor is specified by name (-processor), or a search
@@ -105,402 +57,44 @@ Progress (1): 123/334 kBProgress (1): 139/334 kBProgress (1): 156/334 kBProgr
   Use -Xlint:-options to suppress this message.
   Use -proc:none to disable annotation processing.
 [INFO] 
-[INFO] --- surefire:3.3.0:test (default-test) @ maven-project ---
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.3.0/surefire-logger-api-3.3.0.pom
-Progress (1): 834 BProgress (1): 2.3 kBProgress (1): 3.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.3.0/surefire-logger-api-3.3.0.pom (3.3 kB at 30 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.3.0/surefire-shared-utils-3.3.0.pom
-Progress (1): 1.1 kBProgress (1): 4.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.3.0/surefire-shared-utils-3.3.0.pom (4.1 kB at 44 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.3.0/surefire-extensions-api-3.3.0.pom
-Progress (1): 838 BProgress (1): 3.0 kBProgress (1): 3.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.3.0/surefire-extensions-api-3.3.0.pom (3.5 kB at 34 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.3.0/maven-surefire-common-3.3.0.pom
-Progress (1): 831 BProgress (1): 4.3 kBProgress (1): 7.2 kBProgress (1): 7.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.3.0/maven-surefire-common-3.3.0.pom (7.8 kB at 76 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.3.0/surefire-booter-3.3.0.pom
-Progress (1): 834 BProgress (1): 3.3 kBProgress (1): 4.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.3.0/surefire-booter-3.3.0.pom (4.8 kB at 49 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.3.0/surefire-extensions-spi-3.3.0.pom
-Progress (1): 884 BProgress (1): 1.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.3.0/surefire-extensions-spi-3.3.0.pom (1.8 kB at 18 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.4.1/maven-resolver-util-1.4.1.pom
-Progress (1): 825 BProgress (1): 2.8 kBProgress (1): 2.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.4.1/maven-resolver-util-1.4.1.pom (2.8 kB at 28 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver/1.4.1/maven-resolver-1.4.1.pom
-Progress (1): 774 BProgress (1): 2.2 kBProgress (1): 6.0 kBProgress (1): 9.6 kBProgress (1): 13 kB Progress (1): 16 kBProgress (1): 18 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver/1.4.1/maven-resolver-1.4.1.pom (18 kB at 193 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/33/maven-parent-33.pom
-Progress (1): 774 BProgress (1): 2.0 kBProgress (1): 5.9 kBProgress (1): 9.6 kBProgress (1): 14 kB Progress (1): 19 kBProgress (1): 23 kBProgress (1): 25 kBProgress (1): 27 kBProgress (1): 30 kBProgress (1): 33 kBProgress (1): 36 kBProgress (1): 39 kBProgress (1): 44 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/33/maven-parent-33.pom (44 kB at 460 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/21/apache-21.pom
-Progress (1): 753 BProgress (1): 2.1 kBProgress (1): 3.9 kBProgress (1): 8.3 kBProgress (1): 13 kB Progress (1): 16 kBProgress (1): 17 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/21/apache-21.pom (17 kB at 186 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.4.1/maven-resolver-api-1.4.1.pom
-Progress (1): 843 BProgress (1): 2.6 kBProgress (1): 2.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.4.1/maven-resolver-api-1.4.1.pom (2.6 kB at 28 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.4.0/maven-common-artifact-filters-3.4.0.pom
-Progress (1): 798 BProgress (1): 2.3 kBProgress (1): 5.4 kBProgress (1): 5.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.4.0/maven-common-artifact-filters-3.4.0.pom (5.4 kB at 55 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.3.0/surefire-api-3.3.0.jar
-Progress (1): 8.2/171 kBProgress (1): 25/171 kB Progress (1): 41/171 kBProgress (1): 57/171 kBProgress (1): 74/171 kBProgress (1): 90/171 kBProgress (1): 106/171 kBProgress (1): 123/171 kBProgress (1): 139/171 kBProgress (1): 156/171 kBProgress (1): 164/171 kBProgress (1): 171 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.3.0/surefire-api-3.3.0.jar (171 kB at 1.4 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.3.0/surefire-logger-api-3.3.0.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.3.0/surefire-shared-utils-3.3.0.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.3.0/surefire-extensions-api-3.3.0.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.3.0/maven-surefire-common-3.3.0.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.3.0/surefire-booter-3.3.0.jar
-Progress (1): 7.7/308 kBProgress (1): 7.7/308 kBProgress (1): 24/308 kB Progress (2): 24/308 kB | 7.7/14 kBProgress (2): 24/308 kB | 8.2/14 kBProgress (2): 24/308 kB | 14 kB    Progress (2): 40/308 kB | 14 kB                               Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.3.0/surefire-logger-api-3.3.0.jar (14 kB at 127 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.3.0/surefire-extensions-spi-3.3.0.jar
-Progress (1): 57/308 kBProgress (2): 57/308 kB | 3.2/118 kBProgress (2): 57/308 kB | 20/118 kB Progress (2): 57/308 kB | 36/118 kBProgress (2): 57/308 kB | 52/118 kBProgress (2): 57/308 kB | 61/118 kBProgress (2): 57/308 kB | 77/118 kBProgress (2): 73/308 kB | 77/118 kBProgress (2): 73/308 kB | 93/118 kBProgress (2): 73/308 kB | 110/118 kBProgress (2): 73/308 kB | 118 kB                                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.3.0/surefire-booter-3.3.0.jar (118 kB at 1.1 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.4.1/maven-resolver-util-1.4.1.jar
-Progress (1): 90/308 kBProgress (1): 106/308 kBProgress (1): 122/308 kBProgress (1): 131/308 kBProgress (1): 147/308 kBProgress (1): 164/308 kBProgress (1): 180/308 kBProgress (1): 197/308 kBProgress (1): 213/308 kBProgress (1): 229/308 kBProgress (1): 246/308 kBProgress (1): 262/308 kBProgress (1): 279/308 kBProgress (1): 295/308 kBProgress (1): 308 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.3.0/maven-surefire-common-3.3.0.jar (308 kB at 1.8 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.4.1/maven-resolver-api-1.4.1.jar
-Progress (1): 0.9/26 kBProgress (1): 2.3/26 kBProgress (1): 3.6/26 kBProgress (1): 5.0/26 kBProgress (1): 6.4/26 kBProgress (1): 7.7/26 kBProgress (1): 9.1/26 kBProgress (1): 10/26 kB Progress (1): 11/26 kBProgress (1): 16/26 kBProgress (1): 20/26 kBProgress (1): 24/26 kBProgress (1): 26 kB   Progress (2): 26 kB | 7.7/8.2 kBProgress (2): 26 kB | 8.2 kB                                Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.3.0/surefire-extensions-spi-3.3.0.jar (8.2 kB at 43 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.4.0/maven-common-artifact-filters-3.4.0.jar
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.3.0/surefire-extensions-api-3.3.0.jar (26 kB at 130 kB/s)
-Progress (1): 7.3/168 kBProgress (1): 24/168 kB Progress (1): 32/168 kBProgress (1): 48/168 kBProgress (1): 65/168 kBProgress (1): 81/168 kBProgress (2): 81/168 kB | 0/2.8 MBProgress (2): 81/168 kB | 0/2.8 MBProgress (2): 81/168 kB | 0/2.8 MBProgress (2): 81/168 kB | 0.1/2.8 MBProgress (2): 81/168 kB | 0.1/2.8 MBProgress (2): 97/168 kB | 0.1/2.8 MBProgress (2): 114/168 kB | 0.1/2.8 MBProgress (2): 130/168 kB | 0.1/2.8 MBProgress (2): 147/168 kB | 0.1/2.8 MBProgress (2): 163/168 kB | 0.1/2.8 MBProgress (2): 168 kB | 0.1/2.8 MB    Progress (2): 168 kB | 0.1/2.8 MB                                 Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.4.1/maven-resolver-util-1.4.1.jar (168 kB at 738 kB/s)
-Progress (1): 0.1/2.8 MBProgress (1): 0.1/2.8 MBProgress (1): 0.1/2.8 MBProgress (1): 0.1/2.8 MBProgress (1): 0.2/2.8 MBProgress (1): 0.2/2.8 MBProgress (1): 0.2/2.8 MBProgress (1): 0.2/2.8 MBProgress (1): 0.2/2.8 MBProgress (1): 0.2/2.8 MBProgress (1): 0.3/2.8 MBProgress (1): 0.3/2.8 MBProgress (1): 0.3/2.8 MBProgress (1): 0.3/2.8 MBProgress (1): 0.3/2.8 MBProgress (1): 0.3/2.8 MBProgress (1): 0.4/2.8 MBProgress (1): 0.4/2.8 MBProgress (1): 0.4/2.8 MBProgress (1): 0.4/2.8 MBProgress (1): 0.4/2.8 MBProgress (1): 0.4/2.8 MBProgress (1): 0.5/2.8 MBProgress (1): 0.5/2.8 MBProgress (1): 0.5/2.8 MBProgress (1): 0.5/2.8 MBProgress (1): 0.5/2.8 MBProgress (1): 0.5/2.8 MBProgress (1): 0.6/2.8 MBProgress (1): 0.6/2.8 MBProgress (1): 0.6/2.8 MBProgress (1): 0.6/2.8 MBProgress (2): 0.6/2.8 MB | 7.7/149 kBProgress (2): 0.6/2.8 MB | 15/149 kB Progress (2): 0.6/2.8 MB | 15/149 kBProgress (2): 0.6/2.8 MB | 32/149 kBProgress (2): 0.6/2.8 MB | 32/149 kBProgress (2): 0.7/2.8 MB | 32/149 kBProgress (2): 0.7/2.8 MB | 32/149 kBProgress (2): 0.7/2.8 MB | 32/149 kBProgress (2): 0.7/2.8 MB | 32/149 kBProgress (2): 0.7/2.8 MB | 48/149 kBProgress (2): 0.7/2.8 MB | 48/149 kBProgress (2): 0.7/2.8 MB | 65/149 kBProgress (2): 0.7/2.8 MB | 65/149 kBProgress (2): 0.8/2.8 MB | 65/149 kBProgress (2): 0.8/2.8 MB | 65/149 kBProgress (2): 0.8/2.8 MB | 65/149 kBProgress (2): 0.8/2.8 MB | 65/149 kBProgress (2): 0.8/2.8 MB | 65/149 kBProgress (2): 0.8/2.8 MB | 65/149 kBProgress (2): 0.9/2.8 MB | 65/149 kBProgress (2): 0.9/2.8 MB | 65/149 kBProgress (2): 0.9/2.8 MB | 65/149 kBProgress (2): 0.9/2.8 MB | 65/149 kBProgress (2): 0.9/2.8 MB | 81/149 kBProgress (2): 0.9/2.8 MB | 81/149 kBProgress (2): 0.9/2.8 MB | 97/149 kBProgress (2): 0.9/2.8 MB | 97/149 kBProgress (2): 1.0/2.8 MB | 97/149 kBProgress (2): 1.0/2.8 MB | 97/149 kBProgress (2): 1.0/2.8 MB | 97/149 kBProgress (2): 1.0/2.8 MB | 114/149 kBProgress (2): 1.0/2.8 MB | 114/149 kBProgress (2): 1.0/2.8 MB | 114/149 kBProgress (2): 1.0/2.8 MB | 114/149 kBProgress (2): 1.0/2.8 MB | 114/149 kBProgress (2): 1.1/2.8 MB | 114/149 kBProgress (2): 1.1/2.8 MB | 114/149 kBProgress (2): 1.1/2.8 MB | 114/149 kBProgress (2): 1.1/2.8 MB | 114/149 kBProgress (2): 1.1/2.8 MB | 114/149 kBProgress (2): 1.1/2.8 MB | 114/149 kBProgress (2): 1.2/2.8 MB | 114/149 kBProgress (2): 1.2/2.8 MB | 114/149 kBProgress (2): 1.2/2.8 MB | 114/149 kBProgress (2): 1.2/2.8 MB | 114/149 kBProgress (2): 1.2/2.8 MB | 130/149 kBProgress (2): 1.2/2.8 MB | 130/149 kBProgress (2): 1.2/2.8 MB | 130/149 kBProgress (2): 1.2/2.8 MB | 147/149 kBProgress (2): 1.2/2.8 MB | 147/149 kBProgress (2): 1.2/2.8 MB | 149 kB    Progress (2): 1.3/2.8 MB | 149 kBProgress (2): 1.3/2.8 MB | 149 kBProgress (2): 1.3/2.8 MB | 149 kBProgress (2): 1.3/2.8 MB | 149 kBProgress (2): 1.3/2.8 MB | 149 kBProgress (2): 1.3/2.8 MB | 149 kB                                 Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.4.1/maven-resolver-api-1.4.1.jar (149 kB at 534 kB/s)
-Progress (1): 1.4/2.8 MBProgress (1): 1.4/2.8 MBProgress (1): 1.4/2.8 MBProgress (1): 1.4/2.8 MBProgress (2): 1.4/2.8 MB | 7.7/58 kBProgress (2): 1.4/2.8 MB | 16/58 kB Progress (2): 1.4/2.8 MB | 16/58 kBProgress (2): 1.4/2.8 MB | 16/58 kBProgress (2): 1.4/2.8 MB | 24/58 kBProgress (2): 1.5/2.8 MB | 24/58 kBProgress (2): 1.5/2.8 MB | 40/58 kBProgress (2): 1.5/2.8 MB | 40/58 kBProgress (2): 1.5/2.8 MB | 57/58 kBProgress (2): 1.5/2.8 MB | 58 kB   Progress (2): 1.5/2.8 MB | 58 kBProgress (2): 1.5/2.8 MB | 58 kBProgress (2): 1.5/2.8 MB | 58 kB                                Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.4.0/maven-common-artifact-filters-3.4.0.jar (58 kB at 202 kB/s)
-Progress (1): 1.5/2.8 MBProgress (1): 1.6/2.8 MBProgress (1): 1.6/2.8 MBProgress (1): 1.6/2.8 MBProgress (1): 1.6/2.8 MBProgress (1): 1.6/2.8 MBProgress (1): 1.6/2.8 MBProgress (1): 1.6/2.8 MBProgress (1): 1.6/2.8 MBProgress (1): 1.7/2.8 MBProgress (1): 1.7/2.8 MBProgress (1): 1.7/2.8 MBProgress (1): 1.7/2.8 MBProgress (1): 1.7/2.8 MBProgress (1): 1.7/2.8 MBProgress (1): 1.8/2.8 MBProgress (1): 1.8/2.8 MBProgress (1): 1.8/2.8 MBProgress (1): 1.8/2.8 MBProgress (1): 1.8/2.8 MBProgress (1): 1.8/2.8 MBProgress (1): 1.9/2.8 MBProgress (1): 1.9/2.8 MBProgress (1): 1.9/2.8 MBProgress (1): 1.9/2.8 MBProgress (1): 1.9/2.8 MBProgress (1): 1.9/2.8 MBProgress (1): 2.0/2.8 MBProgress (1): 2.0/2.8 MBProgress (1): 2.0/2.8 MBProgress (1): 2.0/2.8 MBProgress (1): 2.0/2.8 MBProgress (1): 2.0/2.8 MBProgress (1): 2.0/2.8 MBProgress (1): 2.1/2.8 MBProgress (1): 2.1/2.8 MBProgress (1): 2.1/2.8 MBProgress (1): 2.1/2.8 MBProgress (1): 2.1/2.8 MBProgress (1): 2.1/2.8 MBProgress (1): 2.2/2.8 MBProgress (1): 2.2/2.8 MBProgress (1): 2.2/2.8 MBProgress (1): 2.2/2.8 MBProgress (1): 2.2/2.8 MBProgress (1): 2.2/2.8 MBProgress (1): 2.3/2.8 MBProgress (1): 2.3/2.8 MBProgress (1): 2.3/2.8 MBProgress (1): 2.3/2.8 MBProgress (1): 2.3/2.8 MBProgress (1): 2.3/2.8 MBProgress (1): 2.4/2.8 MBProgress (1): 2.4/2.8 MBProgress (1): 2.4/2.8 MBProgress (1): 2.4/2.8 MBProgress (1): 2.4/2.8 MBProgress (1): 2.4/2.8 MBProgress (1): 2.4/2.8 MBProgress (1): 2.4/2.8 MBProgress (1): 2.5/2.8 MBProgress (1): 2.5/2.8 MBProgress (1): 2.5/2.8 MBProgress (1): 2.5/2.8 MBProgress (1): 2.5/2.8 MBProgress (1): 2.5/2.8 MBProgress (1): 2.6/2.8 MBProgress (1): 2.6/2.8 MBProgress (1): 2.6/2.8 MBProgress (1): 2.6/2.8 MBProgress (1): 2.6/2.8 MBProgress (1): 2.6/2.8 MBProgress (1): 2.7/2.8 MBProgress (1): 2.7/2.8 MBProgress (1): 2.7/2.8 MBProgress (1): 2.7/2.8 MBProgress (1): 2.7/2.8 MBProgress (1): 2.7/2.8 MBProgress (1): 2.8/2.8 MBProgress (1): 2.8/2.8 MBProgress (1): 2.8/2.8 MBProgress (1): 2.8 MB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.3.0/surefire-shared-utils-3.3.0.jar (2.8 MB at 8.6 MB/s)
+[INFO] --- surefire:3.3.0:test (default-test) @ depcheck ---
 [INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.3.0/surefire-junit-platform-3.3.0.pom
-Progress (1): 839 BProgress (1): 3.1 kBProgress (1): 5.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.3.0/surefire-junit-platform-3.3.0.pom (5.7 kB at 30 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.3.0/common-java5-3.3.0.pom
-Progress (1): 854 BProgress (1): 2.6 kBProgress (1): 2.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.3.0/common-java5-3.3.0.pom (2.8 kB at 14 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.pom
-Progress (1): 1.2 kBProgress (1): 1.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.pom (1.7 kB at 31 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.pom
-Progress (1): 971 BProgress (1): 2.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.pom (2.8 kB at 71 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.9.3/junit-platform-launcher-1.9.3.pom
-Progress (1): 966 BProgress (1): 3.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.9.3/junit-platform-launcher-1.9.3.pom (3.0 kB at 98 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.3.0/surefire-junit-platform-3.3.0.jar
-Progress (1): 7.7/27 kBProgress (1): 16/27 kB Progress (1): 27 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.3.0/surefire-junit-platform-3.3.0.jar (27 kB at 143 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.3.0/common-java5-3.3.0.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.9.3/junit-platform-launcher-1.9.3.jar
-Progress (1): 3.8/7.7 kBProgress (1): 7.7 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar (7.7 kB at 219 kB/s)
-Progress (1): 7.7/189 kBProgress (1): 12/189 kB Progress (1): 29/189 kBProgress (1): 45/189 kBProgress (1): 61/189 kBProgress (1): 78/189 kBProgress (1): 94/189 kBProgress (1): 111/189 kBProgress (1): 127/189 kBProgress (1): 143/189 kBProgress (1): 160/189 kBProgress (1): 176/189 kBProgress (1): 189 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar (189 kB at 3.5 MB/s)
-Progress (1): 7.7/103 kBProgress (1): 16/103 kB Progress (2): 16/103 kB | 7.7/169 kBProgress (2): 16/103 kB | 12/169 kB Progress (3): 16/103 kB | 12/169 kB | 7.7/18 kBProgress (3): 32/103 kB | 12/169 kB | 7.7/18 kBProgress (3): 32/103 kB | 12/169 kB | 7.7/18 kBProgress (3): 32/103 kB | 12/169 kB | 18 kB    Progress (3): 32/103 kB | 29/169 kB | 18 kBProgress (3): 49/103 kB | 29/169 kB | 18 kBProgress (3): 49/103 kB | 45/169 kB | 18 kBProgress (3): 57/103 kB | 45/169 kB | 18 kBProgress (3): 57/103 kB | 61/169 kB | 18 kBProgress (3): 57/103 kB | 78/169 kB | 18 kBProgress (3): 57/103 kB | 94/169 kB | 18 kBProgress (3): 57/103 kB | 111/169 kB | 18 kB                                            Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.3.0/common-java5-3.3.0.jar (18 kB at 177 kB/s)
-Progress (2): 57/103 kB | 127/169 kBProgress (2): 57/103 kB | 143/169 kBProgress (2): 73/103 kB | 143/169 kBProgress (2): 73/103 kB | 160/169 kBProgress (2): 90/103 kB | 160/169 kBProgress (2): 90/103 kB | 169 kB    Progress (2): 103 kB | 169 kB                                Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.9.3/junit-platform-launcher-1.9.3.jar (169 kB at 1.6 MB/s)
-Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar (103 kB at 1000 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.11.0/junit-platform-launcher-1.11.0.pom
-Progress (1): 969 BProgress (1): 3.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.11.0/junit-platform-launcher-1.11.0.pom (3.0 kB at 34 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.11.0/junit-platform-launcher-1.11.0.jar
-Progress (1): 7.7/189 kBProgress (1): 16/189 kB Progress (1): 28/189 kBProgress (1): 44/189 kBProgress (1): 61/189 kBProgress (1): 77/189 kBProgress (1): 93/189 kBProgress (1): 110/189 kBProgress (1): 126/189 kBProgress (1): 142/189 kBProgress (1): 159/189 kBProgress (1): 175/189 kBProgress (1): 189 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.11.0/junit-platform-launcher-1.11.0.jar (189 kB at 1.6 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.11.3/junit-platform-launcher-1.11.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.11.3/junit-platform-launcher-1.11.3.pom (3.0 kB at 25 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.11.3/junit-platform-launcher-1.11.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.11.3/junit-platform-launcher-1.11.3.jar (189 kB at 444 kB/s)
 [INFO] 
 [INFO] -------------------------------------------------------
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
-[INFO] Running ec.edu.ug.gcs.grupod.AppTest
-2026-06-20 15:03:38.445 [main] INFO  ec.edu.ug.gcs.grupod.App - ========================================
-2026-06-20 15:03:38.477 [main] INFO  ec.edu.ug.gcs.grupod.App - GCS Maven Project - Grupo D
-2026-06-20 15:03:38.483 [main] INFO  ec.edu.ug.gcs.grupod.App - ========================================
-2026-06-20 15:03:38.485 [main] INFO  ec.edu.ug.gcs.grupod.App - Starting application...
-2026-06-20 15:03:38.485 [main] INFO  ec.edu.ug.gcs.grupod.App - 
---- Calculator Demonstration ---
-2026-06-20 15:03:38.501 [main] INFO  ec.edu.ug.gcs.grupod.App - Testing basic operations:
-2026-06-20 15:03:38.531 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - add(10.00, 5.00) = 15.0
-2026-06-20 15:03:38.533 [main] INFO  ec.edu.ug.gcs.grupod.App - 10 + 5 = 15.0
-2026-06-20 15:03:38.538 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - subtract(10.00, 5.00) = 5.0
-2026-06-20 15:03:38.539 [main] INFO  ec.edu.ug.gcs.grupod.App - 10 - 5 = 5.0
-2026-06-20 15:03:38.540 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - multiply(10.00, 5.00) = 50.0
-2026-06-20 15:03:38.542 [main] INFO  ec.edu.ug.gcs.grupod.App - 10 * 5 = 50.0
-2026-06-20 15:03:38.544 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - divide(10.00, 5.00) = 2.0
-2026-06-20 15:03:38.545 [main] INFO  ec.edu.ug.gcs.grupod.App - 10 / 5 = 2.0
-2026-06-20 15:03:38.546 [main] INFO  ec.edu.ug.gcs.grupod.App - Testing edge case (division by zero):
-2026-06-20 15:03:38.547 [main] ERROR ec.edu.ug.gcs.grupod.Calculator - Division by zero attempted: 10.0 / 0.0
-2026-06-20 15:03:38.548 [main] ERROR ec.edu.ug.gcs.grupod.App - Caught expected exception: Divisor cannot be zero
-2026-06-20 15:03:38.549 [main] INFO  ec.edu.ug.gcs.grupod.App - 
---- StringProcessor Demonstration ---
-2026-06-20 15:03:38.575 [main] INFO  ec.edu.ug.gcs.grupod.App - Testing with string: 'hello world'
-2026-06-20 15:03:38.587 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - capitalize('hello world') = 'Hello world'
-2026-06-20 15:03:38.588 [main] INFO  ec.edu.ug.gcs.grupod.App - Capitalized: 'Hello world'
-2026-06-20 15:03:38.589 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - reverse('hello world') = 'dlrow olleh'
-2026-06-20 15:03:38.590 [main] INFO  ec.edu.ug.gcs.grupod.App - Reversed: 'dlrow olleh'
-2026-06-20 15:03:38.592 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - toUpperCase('hello world') = 'HELLO WORLD'
-2026-06-20 15:03:38.593 [main] INFO  ec.edu.ug.gcs.grupod.App - Uppercase: 'HELLO WORLD'
-2026-06-20 15:03:38.594 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - countVowels('hello world') = 3
-2026-06-20 15:03:38.595 [main] INFO  ec.edu.ug.gcs.grupod.App - Vowel count: 3
-2026-06-20 15:03:38.599 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - isPalindrome('racecar') = true
-2026-06-20 15:03:38.601 [main] INFO  ec.edu.ug.gcs.grupod.App - Is 'racecar' a palindrome? true
-2026-06-20 15:03:38.602 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - isBlank('   ') = true
-2026-06-20 15:03:38.603 [main] INFO  ec.edu.ug.gcs.grupod.App - Is '   ' blank? true
-2026-06-20 15:03:38.604 [main] INFO  ec.edu.ug.gcs.grupod.App - Application completed successfully
-2026-06-20 15:03:38.606 [main] INFO  ec.edu.ug.gcs.grupod.App - ========================================
-[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.901 s -- in ec.edu.ug.gcs.grupod.AppTest
-[INFO] Running ec.edu.ug.gcs.grupod.CalculatorTest
-2026-06-20 15:03:38.647 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - divide(10.00, 1.00) = 10.0
-2026-06-20 15:03:38.671 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - multiply(10.00, 5.00) = 50.0
-2026-06-20 15:03:38.683 [main] ERROR ec.edu.ug.gcs.grupod.Calculator - Division by zero attempted: 10.0 / 0.0
-2026-06-20 15:03:38.695 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - multiply(-10.00, -5.00) = 50.0
-2026-06-20 15:03:38.700 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - add(10.00, 0.00) = 10.0
-2026-06-20 15:03:38.706 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - divide(7.50, 2.50) = 3.0
-2026-06-20 15:03:38.714 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - add(10.00, 5.00) = 15.0
-2026-06-20 15:03:38.718 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - multiply(10.00, 0.00) = 0.0
-2026-06-20 15:03:38.723 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - add(-10.00, -5.00) = -15.0
-2026-06-20 15:03:38.734 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - divide(10.00, 5.00) = 2.0
-2026-06-20 15:03:38.741 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - divide(-10.00, -5.00) = 2.0
-2026-06-20 15:03:38.745 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - subtract(10.00, 5.00) = 5.0
-2026-06-20 15:03:38.749 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - add(10.00, -5.00) = 5.0
-2026-06-20 15:03:38.755 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - subtract(5.00, 10.00) = -5.0
-2026-06-20 15:03:38.760 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - divide(0.00, 5.00) = 0.0
-[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.134 s -- in ec.edu.ug.gcs.grupod.CalculatorTest
-[INFO] Running ec.edu.ug.gcs.grupod.StringProcessorTest
-2026-06-20 15:03:38.773 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - isBlank('null') = true
-2026-06-20 15:03:38.781 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - capitalize('hello') = 'Hello'
-2026-06-20 15:03:38.790 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - countVowels('hello world') = 3
-2026-06-20 15:03:38.794 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - isBlank(' hello ') = false
-2026-06-20 15:03:38.809 [main] WARN  ec.edu.ug.gcs.grupod.StringProcessor - countVowels called with null input
-2026-06-20 15:03:38.812 [main] WARN  ec.edu.ug.gcs.grupod.StringProcessor - toUpperCase called with null input
-2026-06-20 15:03:38.821 [main] WARN  ec.edu.ug.gcs.grupod.StringProcessor - isPalindrome called with null or empty input
-2026-06-20 15:03:38.828 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - isPalindrome('racecar') = true
-2026-06-20 15:03:38.831 [main] WARN  ec.edu.ug.gcs.grupod.StringProcessor - isPalindrome called with null or empty input
-2026-06-20 15:03:38.841 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - toUpperCase('hello123') = 'HELLO123'
-2026-06-20 15:03:38.847 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - countVowels('hello') = 2
-2026-06-20 15:03:38.852 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - isPalindrome('hello') = false
-2026-06-20 15:03:38.866 [main] WARN  ec.edu.ug.gcs.grupod.StringProcessor - capitalize called with null input
-2026-06-20 15:03:38.890 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - isBlank('hello') = false
-2026-06-20 15:03:38.909 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - isPalindrome('a man a plan a canal panama') = true
-2026-06-20 15:03:38.913 [main] WARN  ec.edu.ug.gcs.grupod.StringProcessor - reverse called with null input
-2026-06-20 15:03:38.921 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - capitalize('') = ''
-2026-06-20 15:03:38.926 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - reverse('hello') = 'olleh'
-2026-06-20 15:03:38.931 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - isBlank('   ') = true
-2026-06-20 15:03:38.938 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - reverse('hello world') = 'dlrow olleh'
-2026-06-20 15:03:38.945 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - countVowels('xyz') = 0
-2026-06-20 15:03:38.953 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - capitalize('hello world') = 'Hello world'
-2026-06-20 15:03:38.961 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - toUpperCase('hello') = 'HELLO'
-2026-06-20 15:03:38.968 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - isBlank('') = true
-[INFO] Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.199 s -- in ec.edu.ug.gcs.grupod.StringProcessorTest
+[INFO] Running ec.edu.ug.gcs.grupod.depcheck.AdvisoryDatabaseTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.373 s -- in ec.edu.ug.gcs.grupod.depcheck.AdvisoryDatabaseTest
+[INFO] Running ec.edu.ug.gcs.grupod.depcheck.DependencyTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.091 s -- in ec.edu.ug.gcs.grupod.depcheck.DependencyTest
+[INFO] Running ec.edu.ug.gcs.grupod.depcheck.VersionComparatorTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.375 s -- in ec.edu.ug.gcs.grupod.depcheck.VersionComparatorTest
+[INFO] Running ec.edu.ug.gcs.grupod.depcheck.VulnerabilityScannerTest
+22:11:27.407 [INFO ] VulnerabilityScanner - Iniciando escaneo de 1 dependencias contra 2 advisories
+22:11:27.511 [ERROR] VulnerabilityScanner - [CRITICAL] org.apache.logging.log4j:log4j-core:2.0.0 -> CVE-2021-44228 : actualizar a >= 2.15.0
+22:11:27.566 [INFO ] VulnerabilityScanner - Escaneo finalizado: Escaneadas 1 | hallazgos 1 (criticas 1, altas 0, medias 0, bajas 0) | seguras 0
+22:11:27.572 [INFO ] VulnerabilityScanner - Iniciando escaneo de 1 dependencias contra 2 advisories
+22:11:27.573 [INFO ] VulnerabilityScanner - OK  org.apache.commons:commons-lang3:3.14.0 -> sin advisories
+22:11:27.573 [INFO ] VulnerabilityScanner - Escaneo finalizado: Escaneadas 1 | hallazgos 0 (criticas 0, altas 0, medias 0, bajas 0) | seguras 1
+22:11:27.579 [INFO ] VulnerabilityScanner - Iniciando escaneo de 4 dependencias contra 2 advisories
+22:11:27.579 [ERROR] VulnerabilityScanner - [CRITICAL] org.apache.logging.log4j:log4j-core:2.14.1 -> CVE-2021-44228 : actualizar a >= 2.15.0
+22:11:27.580 [ERROR] VulnerabilityScanner - [HIGH] commons-collections:commons-collections:3.2.1 -> CVE-2015-6420 : actualizar a >= 3.2.2
+22:11:27.580 [INFO ] VulnerabilityScanner - OK  org.apache.logging.log4j:log4j-core:2.23.1 -> sin advisories
+22:11:27.580 [INFO ] VulnerabilityScanner - OK  org.apache.commons:commons-lang3:3.14.0 -> sin advisories
+22:11:27.580 [INFO ] VulnerabilityScanner - Escaneo finalizado: Escaneadas 4 | hallazgos 2 (criticas 1, altas 1, medias 0, bajas 0) | seguras 2
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.718 s -- in ec.edu.ug.gcs.grupod.depcheck.VulnerabilityScannerTest
 [INFO] 
 [INFO] Results:
 [INFO] 
-[INFO] Tests run: 41, Failures: 0, Errors: 0, Skipped: 0
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0
 [INFO] 
-[WARNING] Could not delete temp directory /mnt/d/Ghosty/kb/university/2026-S1/GCS/maven-project/target/surefire because File /mnt/d/Ghosty/kb/university/2026-S1/GCS/maven-project/target/surefire/surefire_0-20260620150333978_2tmp unable to be deleted.
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  21.501 s
-[INFO] Finished at: 2026-06-20T15:03:40-05:00
-[INFO] ------------------------------------------------------------------------
-7 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/17/plexus-17.pom
-Progress (1): 691 BProgress (1): 2.5 kBProgress (1): 6.4 kBProgress (1): 8.9 kBProgress (1): 11 kB Progress (1): 14 kBProgress (1): 19 kBProgress (1): 21 kBProgress (1): 25 kBProgress (1): 28 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/17/plexus-17.pom (28 kB at 297 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/4.0.0/plexus-utils-4.0.0.pom
-Progress (1): 724 BProgress (1): 2.3 kBProgress (1): 4.5 kBProgress (1): 8.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/4.0.0/plexus-utils-4.0.0.pom (8.7 kB at 93 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/13/plexus-13.pom
-Progress (1): 693 BProgress (1): 2.5 kBProgress (1): 6.4 kBProgress (1): 8.9 kBProgress (1): 11 kB Progress (1): 14 kBProgress (1): 18 kBProgress (1): 21 kBProgress (1): 26 kBProgress (1): 27 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/13/plexus-13.pom (27 kB at 311 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.9.3/junit-bom-5.9.3.pom
-Progress (1): 907 BProgress (1): 4.1 kBProgress (1): 5.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.9.3/junit-bom-5.9.3.pom (5.6 kB at 61 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.15.0/plexus-compiler-manager-2.15.0.pom
-Progress (1): 1.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.15.0/plexus-compiler-manager-2.15.0.pom (1.3 kB at 14 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-xml/3.0.0/plexus-xml-3.0.0.pom
-Progress (1): 815 BProgress (1): 2.7 kBProgress (1): 3.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-xml/3.0.0/plexus-xml-3.0.0.pom (3.7 kB at 39 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.15.0/plexus-compiler-javac-2.15.0.pom
-Progress (1): 1.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.15.0/plexus-compiler-javac-2.15.0.pom (1.3 kB at 13 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.15.0/plexus-compilers-2.15.0.pom
-Progress (1): 1.6 kBProgress (1): 1.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.15.0/plexus-compilers-2.15.0.pom (1.6 kB at 16 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.jar
-Progress (1): 7.7/14 kBProgress (1): 11/14 kB Progress (1): 14 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.jar (14 kB at 154 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.2.0/plexus-java-1.2.0.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.6/asm-9.6.jar
-Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0.3/qdox-2.0.3.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.15.0/plexus-compiler-api-2.15.0.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.15.0/plexus-compiler-manager-2.15.0.jar
-Progress (1): 7.7/124 kBProgress (1): 16/124 kB Progress (1): 28/124 kBProgress (2): 28/124 kB | 5.2 kBProgress (3): 28/124 kB | 5.2 kB | 7.7/58 kBProgress (3): 28/124 kB | 5.2 kB | 16/58 kB Progress (3): 28/124 kB | 5.2 kB | 24/58 kBProgress (3): 44/124 kB | 5.2 kB | 24/58 kBProgress (3): 44/124 kB | 5.2 kB | 40/58 kB                                           Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.15.0/plexus-compiler-manager-2.15.0.jar (5.2 kB at 57 kB/s)
-Progress (2): 44/124 kB | 57/58 kB                                  Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-xml/3.0.0/plexus-xml-3.0.0.jar
-Progress (2): 44/124 kB | 58 kB                               Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.2.0/plexus-java-1.2.0.jar (58 kB at 612 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.15.0/plexus-compiler-javac-2.15.0.jar
-Progress (2): 44/124 kB | 7.7/334 kBProgress (2): 44/124 kB | 11/334 kB Progress (2): 44/124 kB | 28/334 kBProgress (2): 44/124 kB | 44/334 kBProgress (2): 44/124 kB | 61/334 kBProgress (2): 44/124 kB | 77/334 kBProgress (2): 44/124 kB | 93/334 kBProgress (2): 44/124 kB | 110/334 kBProgress (2): 44/124 kB | 126/334 kBProgress (2): 44/124 kB | 142/334 kBProgress (2): 44/124 kB | 159/334 kBProgress (2): 44/124 kB | 175/334 kBProgress (2): 44/124 kB | 192/334 kBProgress (2): 61/124 kB | 192/334 kBProgress (2): 61/124 kB | 208/334 kBProgress (2): 77/124 kB | 208/334 kBProgress (2): 77/124 kB | 224/334 kBProgress (3): 77/124 kB | 224/334 kB | 7.7/29 kBProgress (3): 93/124 kB | 224/334 kB | 7.7/29 kBProgress (3): 93/124 kB | 241/334 kB | 7.7/29 kBProgress (3): 110/124 kB | 241/334 kB | 7.7/29 kBProgress (3): 110/124 kB | 257/334 kB | 7.7/29 kBProgress (3): 124 kB | 257/334 kB | 7.7/29 kB    Progress (3): 124 kB | 274/334 kB | 7.7/29 kBProgress (3): 124 kB | 290/334 kB | 7.7/29 kBProgress (3): 124 kB | 306/334 kB | 7.7/29 kBProgress (3): 124 kB | 306/334 kB | 16/29 kB Progress (3): 124 kB | 306/334 kB | 29/29 kBProgress (3): 124 kB | 306/334 kB | 29 kB                                            Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.15.0/plexus-compiler-api-2.15.0.jar (29 kB at 260 kB/s)
-Progress (2): 124 kB | 323/334 kBProgress (2): 124 kB | 334 kB                                 Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.6/asm-9.6.jar (124 kB at 1.1 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/4.0.0/plexus-utils-4.0.0.jar
-Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0.3/qdox-2.0.3.jar (334 kB at 2.9 MB/s)
-Progress (1): 7.7/93 kBProgress (1): 16/93 kB Progress (1): 25/93 kBProgress (1): 41/93 kBProgress (1): 57/93 kBProgress (1): 74/93 kBProgress (1): 90/93 kBProgress (1): 93 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-xml/3.0.0/plexus-xml-3.0.0.jar (93 kB at 517 kB/s)
-Progress (1): 7.7/26 kBProgress (1): 15/26 kB Progress (1): 26 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.15.0/plexus-compiler-javac-2.15.0.jar (26 kB at 137 kB/s)
-Progress (1): 7.7/192 kBProgress (1): 11/192 kB Progress (1): 28/192 kBProgress (1): 44/192 kBProgress (1): 60/192 kBProgress (1): 77/192 kBProgress (1): 93/192 kBProgress (1): 110/192 kBProgress (1): 126/192 kBProgress (1): 142/192 kBProgress (1): 159/192 kBProgress (1): 175/192 kBProgress (1): 192/192 kBProgress (1): 192 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/4.0.0/plexus-utils-4.0.0.jar (192 kB at 859 kB/s)
-[INFO] Recompiling the module because of changed source code.
-[INFO] Compiling 3 source files with javac [debug release 21] to target/classes
-[INFO] Annotation processing is enabled because one or more processors were found
-  on the class path. A future release of javac may disable annotation processing
-  unless at least one processor is specified by name (-processor), or a search
-  path is specified (--processor-path, --processor-module-path), or annotation
-  processing is enabled explicitly (-proc:only, -proc:full).
-  Use -Xlint:-options to suppress this message.
-  Use -proc:none to disable annotation processing.
-[INFO] 
-[INFO] --- resources:3.3.1:testResources (default-testResources) @ maven-project ---
-[INFO] skip non existing resourceDirectory /mnt/d/Ghosty/kb/university/2026-S1/GCS/maven-project/src/test/resources
-[INFO] 
-[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ maven-project ---
-[INFO] Recompiling the module because of changed dependency.
-[INFO] Compiling 3 source files with javac [debug release 21] to target/test-classes
-[INFO] Annotation processing is enabled because one or more processors were found
-  on the class path. A future release of javac may disable annotation processing
-  unless at least one processor is specified by name (-processor), or a search
-  path is specified (--processor-path, --processor-module-path), or annotation
-  processing is enabled explicitly (-proc:only, -proc:full).
-  Use -Xlint:-options to suppress this message.
-  Use -proc:none to disable annotation processing.
-[INFO] 
-[INFO] --- surefire:3.3.0:test (default-test) @ maven-project ---
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.3.0/surefire-api-3.3.0.pom
-Progress (1): 843 BProgress (1): 2.8 kBProgress (1): 3.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.3.0/surefire-api-3.3.0.pom (3.5 kB at 27 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.3.0/surefire-logger-api-3.3.0.pom
-Progress (1): 834 BProgress (1): 2.3 kBProgress (1): 3.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.3.0/surefire-logger-api-3.3.0.pom (3.3 kB at 26 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.3.0/surefire-shared-utils-3.3.0.pom
-Progress (1): 1.1 kBProgress (1): 4.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.3.0/surefire-shared-utils-3.3.0.pom (4.1 kB at 38 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.3.0/surefire-extensions-api-3.3.0.pom
-Progress (1): 838 BProgress (1): 3.0 kBProgress (1): 3.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.3.0/surefire-extensions-api-3.3.0.pom (3.5 kB at 32 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.3.0/maven-surefire-common-3.3.0.pom
-Progress (1): 831 BProgress (1): 4.3 kBProgress (1): 7.2 kBProgress (1): 7.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.3.0/maven-surefire-common-3.3.0.pom (7.8 kB at 77 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.3.0/surefire-booter-3.3.0.pom
-Progress (1): 834 BProgress (1): 3.3 kBProgress (1): 4.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.3.0/surefire-booter-3.3.0.pom (4.8 kB at 48 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.3.0/surefire-extensions-spi-3.3.0.pom
-Progress (1): 884 BProgress (1): 1.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.3.0/surefire-extensions-spi-3.3.0.pom (1.8 kB at 18 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.4.1/maven-resolver-util-1.4.1.pom
-Progress (1): 825 BProgress (1): 2.8 kBProgress (1): 2.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.4.1/maven-resolver-util-1.4.1.pom (2.8 kB at 28 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver/1.4.1/maven-resolver-1.4.1.pom
-Progress (1): 774 BProgress (1): 2.2 kBProgress (1): 6.0 kBProgress (1): 9.6 kBProgress (1): 13 kB Progress (1): 16 kBProgress (1): 18 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver/1.4.1/maven-resolver-1.4.1.pom (18 kB at 182 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/33/maven-parent-33.pom
-Progress (1): 717 BProgress (1): 1.9 kBProgress (1): 5.4 kBProgress (1): 9.9 kBProgress (1): 14 kB Progress (1): 19 kBProgress (1): 23 kBProgress (1): 26 kBProgress (1): 27 kBProgress (1): 30 kBProgress (1): 34 kBProgress (1): 36 kBProgress (1): 39 kBProgress (1): 44 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/33/maven-parent-33.pom (44 kB at 433 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/21/apache-21.pom
-Progress (1): 753 BProgress (1): 2.1 kBProgress (1): 3.9 kBProgress (1): 8.3 kBProgress (1): 13 kB Progress (1): 16 kBProgress (1): 17 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/21/apache-21.pom (17 kB at 171 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.4.1/maven-resolver-api-1.4.1.pom
-Progress (1): 843 BProgress (1): 2.6 kBProgress (1): 2.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.4.1/maven-resolver-api-1.4.1.pom (2.6 kB at 28 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.4.0/maven-common-artifact-filters-3.4.0.pom
-Progress (1): 798 BProgress (1): 2.3 kBProgress (1): 5.4 kBProgress (1): 5.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.4.0/maven-common-artifact-filters-3.4.0.pom (5.4 kB at 57 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.3.0/surefire-api-3.3.0.jar
-Progress (1): 7.7/171 kBProgress (1): 16/171 kB Progress (1): 32/171 kBProgress (1): 49/171 kBProgress (1): 65/171 kBProgress (1): 81/171 kBProgress (1): 98/171 kBProgress (1): 114/171 kBProgress (1): 130/171 kBProgress (1): 147/171 kBProgress (1): 163/171 kBProgress (1): 171 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.3.0/surefire-api-3.3.0.jar (171 kB at 1.6 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.3.0/surefire-logger-api-3.3.0.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.3.0/surefire-shared-utils-3.3.0.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.3.0/surefire-extensions-api-3.3.0.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.3.0/maven-surefire-common-3.3.0.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.3.0/surefire-booter-3.3.0.jar
-Progress (1): 7.7/14 kBProgress (1): 11/14 kB Progress (1): 14 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.3.0/surefire-logger-api-3.3.0.jar (14 kB at 132 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.3.0/surefire-extensions-spi-3.3.0.jar
-Progress (1): 0/2.8 MBProgress (1): 0/2.8 MBProgress (1): 0/2.8 MBProgress (1): 0/2.8 MBProgress (1): 0.1/2.8 MBProgress (1): 0.1/2.8 MBProgress (1): 0.1/2.8 MBProgress (1): 0.1/2.8 MBProgress (1): 0.1/2.8 MBProgress (1): 0.1/2.8 MBProgress (1): 0.2/2.8 MBProgress (2): 0.2/2.8 MB | 3.2/26 kBProgress (2): 0.2/2.8 MB | 20/26 kB Progress (2): 0.2/2.8 MB | 26 kB                                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.3.0/surefire-extensions-api-3.3.0.jar (26 kB at 254 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.4.1/maven-resolver-util-1.4.1.jar
-Progress (2): 0.2/2.8 MB | 7.7/118 kBProgress (3): 0.2/2.8 MB | 7.7/118 kB | 7.7/308 kBProgress (3): 0.2/2.8 MB | 16/118 kB | 7.7/308 kB Progress (3): 0.2/2.8 MB | 16/118 kB | 16/308 kB Progress (3): 0.2/2.8 MB | 28/118 kB | 16/308 kBProgress (3): 0.2/2.8 MB | 28/118 kB | 24/308 kBProgress (3): 0.2/2.8 MB | 44/118 kB | 24/308 kBProgress (3): 0.2/2.8 MB | 44/118 kB | 40/308 kBProgress (3): 0.2/2.8 MB | 61/118 kB | 40/308 kBProgress (3): 0.2/2.8 MB | 77/118 kB | 40/308 kBProgress (3): 0.2/2.8 MB | 77/118 kB | 57/308 kBProgress (3): 0.2/2.8 MB | 93/118 kB | 57/308 kBProgress (3): 0.2/2.8 MB | 110/118 kB | 57/308 kBProgress (3): 0.2/2.8 MB | 110/118 kB | 73/308 kBProgress (3): 0.2/2.8 MB | 118 kB | 73/308 kB    Progress (3): 0.2/2.8 MB | 118 kB | 90/308 kBProgress (3): 0.2/2.8 MB | 118 kB | 106/308 kBProgress (3): 0.2/2.8 MB | 118 kB | 122/308 kBProgress (3): 0.2/2.8 MB | 118 kB | 122/308 kBProgress (3): 0.2/2.8 MB | 118 kB | 122/308 kBProgress (3): 0.2/2.8 MB | 118 kB | 122/308 kBProgress (3): 0.2/2.8 MB | 118 kB | 122/308 kB                                              Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.3.0/surefire-booter-3.3.0.jar (118 kB at 1.1 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.4.1/maven-resolver-api-1.4.1.jar
-Progress (2): 0.2/2.8 MB | 122/308 kBProgress (2): 0.2/2.8 MB | 122/308 kBProgress (2): 0.3/2.8 MB | 122/308 kBProgress (2): 0.3/2.8 MB | 122/308 kBProgress (2): 0.3/2.8 MB | 122/308 kBProgress (2): 0.3/2.8 MB | 122/308 kBProgress (2): 0.3/2.8 MB | 122/308 kBProgress (2): 0.3/2.8 MB | 122/308 kBProgress (2): 0.3/2.8 MB | 139/308 kBProgress (2): 0.3/2.8 MB | 155/308 kBProgress (2): 0.3/2.8 MB | 172/308 kBProgress (2): 0.3/2.8 MB | 188/308 kBProgress (2): 0.4/2.8 MB | 188/308 kBProgress (2): 0.4/2.8 MB | 188/308 kBProgress (2): 0.4/2.8 MB | 188/308 kBProgress (2): 0.4/2.8 MB | 188/308 kBProgress (2): 0.4/2.8 MB | 188/308 kBProgress (2): 0.4/2.8 MB | 188/308 kBProgress (2): 0.5/2.8 MB | 188/308 kBProgress (2): 0.5/2.8 MB | 188/308 kBProgress (2): 0.5/2.8 MB | 188/308 kBProgress (2): 0.5/2.8 MB | 188/308 kBProgress (2): 0.5/2.8 MB | 188/308 kBProgress (2): 0.5/2.8 MB | 188/308 kBProgress (2): 0.6/2.8 MB | 188/308 kBProgress (2): 0.6/2.8 MB | 204/308 kBProgress (2): 0.6/2.8 MB | 221/308 kBProgress (2): 0.6/2.8 MB | 237/308 kBProgress (2): 0.6/2.8 MB | 253/308 kBProgress (2): 0.6/2.8 MB | 270/308 kBProgress (2): 0.6/2.8 MB | 286/308 kBProgress (2): 0.6/2.8 MB | 303/308 kBProgress (2): 0.6/2.8 MB | 308 kB                                     Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.3.0/maven-surefire-common-3.3.0.jar (308 kB at 2.5 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.4.0/maven-common-artifact-filters-3.4.0.jar
-Progress (1): 0.6/2.8 MBProgress (1): 0.6/2.8 MBProgress (1): 0.6/2.8 MBProgress (1): 0.6/2.8 MBProgress (1): 0.6/2.8 MBProgress (1): 0.7/2.8 MBProgress (1): 0.7/2.8 MBProgress (1): 0.7/2.8 MBProgress (1): 0.7/2.8 MBProgress (1): 0.7/2.8 MBProgress (1): 0.7/2.8 MBProgress (1): 0.8/2.8 MBProgress (1): 0.8/2.8 MBProgress (1): 0.8/2.8 MBProgress (1): 0.8/2.8 MBProgress (1): 0.8/2.8 MBProgress (1): 0.8/2.8 MBProgress (1): 0.9/2.8 MBProgress (1): 0.9/2.8 MBProgress (1): 0.9/2.8 MBProgress (1): 0.9/2.8 MBProgress (1): 0.9/2.8 MBProgress (1): 0.9/2.8 MBProgress (1): 1.0/2.8 MBProgress (1): 1.0/2.8 MBProgress (1): 1.0/2.8 MBProgress (1): 1.0/2.8 MBProgress (1): 1.0/2.8 MBProgress (1): 1.0/2.8 MBProgress (1): 1.0/2.8 MBProgress (1): 1.1/2.8 MBProgress (1): 1.1/2.8 MBProgress (1): 1.1/2.8 MBProgress (1): 1.1/2.8 MBProgress (1): 1.1/2.8 MBProgress (1): 1.1/2.8 MBProgress (1): 1.2/2.8 MBProgress (1): 1.2/2.8 MBProgress (1): 1.2/2.8 MBProgress (1): 1.2/2.8 MBProgress (1): 1.2/2.8 MBProgress (1): 1.2/2.8 MBProgress (1): 1.2/2.8 MBProgress (1): 1.3/2.8 MBProgress (1): 1.3/2.8 MBProgress (1): 1.3/2.8 MBProgress (1): 1.3/2.8 MBProgress (1): 1.3/2.8 MBProgress (1): 1.3/2.8 MBProgress (1): 1.4/2.8 MBProgress (1): 1.4/2.8 MBProgress (1): 1.4/2.8 MBProgress (1): 1.4/2.8 MBProgress (1): 1.4/2.8 MBProgress (1): 1.4/2.8 MBProgress (1): 1.5/2.8 MBProgress (1): 1.5/2.8 MBProgress (1): 1.5/2.8 MBProgress (1): 1.5/2.8 MBProgress (1): 1.5/2.8 MBProgress (1): 1.5/2.8 MBProgress (1): 1.5/2.8 MBProgress (1): 1.6/2.8 MBProgress (1): 1.6/2.8 MBProgress (1): 1.6/2.8 MBProgress (1): 1.6/2.8 MBProgress (1): 1.6/2.8 MBProgress (1): 1.6/2.8 MBProgress (1): 1.7/2.8 MBProgress (1): 1.7/2.8 MBProgress (1): 1.7/2.8 MBProgress (1): 1.7/2.8 MBProgress (1): 1.7/2.8 MBProgress (1): 1.7/2.8 MBProgress (1): 1.8/2.8 MBProgress (1): 1.8/2.8 MBProgress (1): 1.8/2.8 MBProgress (1): 1.8/2.8 MBProgress (1): 1.8/2.8 MBProgress (1): 1.8/2.8 MBProgress (1): 1.9/2.8 MBProgress (1): 1.9/2.8 MBProgress (1): 1.9/2.8 MBProgress (1): 1.9/2.8 MBProgress (1): 1.9/2.8 MBProgress (1): 1.9/2.8 MBProgress (1): 2.0/2.8 MBProgress (1): 2.0/2.8 MBProgress (1): 2.0/2.8 MBProgress (1): 2.0/2.8 MBProgress (1): 2.0/2.8 MBProgress (1): 2.0/2.8 MBProgress (1): 2.1/2.8 MBProgress (1): 2.1/2.8 MBProgress (1): 2.1/2.8 MBProgress (1): 2.1/2.8 MBProgress (1): 2.1/2.8 MBProgress (1): 2.1/2.8 MBProgress (1): 2.2/2.8 MBProgress (1): 2.2/2.8 MBProgress (1): 2.2/2.8 MBProgress (1): 2.2/2.8 MBProgress (1): 2.2/2.8 MBProgress (1): 2.2/2.8 MBProgress (1): 2.2/2.8 MBProgress (1): 2.3/2.8 MBProgress (1): 2.3/2.8 MBProgress (1): 2.3/2.8 MBProgress (1): 2.3/2.8 MBProgress (1): 2.3/2.8 MBProgress (1): 2.3/2.8 MBProgress (1): 2.4/2.8 MBProgress (1): 2.4/2.8 MBProgress (1): 2.4/2.8 MBProgress (1): 2.4/2.8 MBProgress (1): 2.4/2.8 MBProgress (1): 2.4/2.8 MBProgress (1): 2.5/2.8 MBProgress (1): 2.5/2.8 MBProgress (1): 2.5/2.8 MBProgress (1): 2.5/2.8 MBProgress (1): 2.5/2.8 MBProgress (1): 2.5/2.8 MBProgress (1): 2.5/2.8 MBProgress (1): 2.6/2.8 MBProgress (1): 2.6/2.8 MBProgress (1): 2.6/2.8 MBProgress (1): 2.6/2.8 MBProgress (1): 2.6/2.8 MBProgress (1): 2.6/2.8 MBProgress (1): 2.7/2.8 MBProgress (1): 2.7/2.8 MBProgress (1): 2.7/2.8 MBProgress (1): 2.7/2.8 MBProgress (1): 2.7/2.8 MBProgress (1): 2.7/2.8 MBProgress (1): 2.8/2.8 MBProgress (2): 2.8/2.8 MB | 7.7/8.2 kBProgress (2): 2.8/2.8 MB | 7.7/8.2 kBProgress (2): 2.8/2.8 MB | 8.2 kB                                     Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.3.0/surefire-extensions-spi-3.3.0.jar (8.2 kB at 44 kB/s)
-Progress (1): 2.8/2.8 MBProgress (1): 2.8/2.8 MBProgress (1): 2.8 MB    Progress (2): 2.8 MB | 7.7/149 kBProgress (2): 2.8 MB | 16/149 kB Progress (2): 2.8 MB | 29/149 kBProgress (2): 2.8 MB | 45/149 kB                                Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.3.0/surefire-shared-utils-3.3.0.jar (2.8 MB at 14 MB/s)
-Progress (1): 61/149 kBProgress (1): 66/149 kBProgress (1): 82/149 kBProgress (1): 98/149 kBProgress (2): 98/149 kB | 7.7/168 kBProgress (2): 98/149 kB | 15/168 kB Progress (2): 98/149 kB | 32/168 kBProgress (2): 98/149 kB | 48/168 kBProgress (2): 98/149 kB | 65/168 kBProgress (2): 98/149 kB | 81/168 kBProgress (2): 98/149 kB | 97/168 kBProgress (2): 115/149 kB | 97/168 kBProgress (3): 115/149 kB | 97/168 kB | 7.7/58 kBProgress (3): 115/149 kB | 97/168 kB | 16/58 kB Progress (3): 115/149 kB | 97/168 kB | 24/58 kBProgress (3): 115/149 kB | 97/168 kB | 40/58 kBProgress (3): 131/149 kB | 97/168 kB | 40/58 kBProgress (3): 131/149 kB | 114/168 kB | 40/58 kBProgress (3): 131/149 kB | 130/168 kB | 40/58 kBProgress (3): 147/149 kB | 130/168 kB | 40/58 kBProgress (3): 149 kB | 130/168 kB | 40/58 kB    Progress (3): 149 kB | 147/168 kB | 40/58 kBProgress (3): 149 kB | 163/168 kB | 40/58 kBProgress (3): 149 kB | 163/168 kB | 57/58 kBProgress (3): 149 kB | 168 kB | 57/58 kB    Progress (3): 149 kB | 168 kB | 58 kB                                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.4.1/maven-resolver-api-1.4.1.jar (149 kB at 680 kB/s)
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.4.1/maven-resolver-util-1.4.1.jar (168 kB at 761 kB/s)
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.4.0/maven-common-artifact-filters-3.4.0.jar (58 kB at 266 kB/s)
-[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.3.0/surefire-junit-platform-3.3.0.pom
-Progress (1): 839 BProgress (1): 3.1 kBProgress (1): 5.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.3.0/surefire-junit-platform-3.3.0.pom (5.7 kB at 63 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/3.3.0/surefire-providers-3.3.0.pom
-Progress (1): 849 BProgress (1): 2.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/3.3.0/surefire-providers-3.3.0.pom (2.6 kB at 29 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.3.0/common-java5-3.3.0.pom
-Progress (1): 854 BProgress (1): 2.6 kBProgress (1): 2.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.3.0/common-java5-3.3.0.pom (2.8 kB at 30 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.pom
-Progress (1): 957 BProgress (1): 3.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.pom (3.2 kB at 36 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.pom
-Progress (1): 1.2 kBProgress (1): 1.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.pom (1.7 kB at 18 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.pom
-Progress (1): 971 BProgress (1): 2.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.pom (2.8 kB at 31 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.3.0/surefire-junit-platform-3.3.0.jar
-Progress (1): 7.7/27 kBProgress (1): 16/27 kB Progress (1): 27 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.3.0/surefire-junit-platform-3.3.0.jar (27 kB at 300 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.3.0/common-java5-3.3.0.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.9.3/junit-platform-launcher-1.9.3.jar
-Progress (1): 7.7/18 kBProgress (1): 16/18 kB Progress (1): 18 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.3.0/common-java5-3.3.0.jar (18 kB at 195 kB/s)
-Progress (1): 3.2/103 kBProgress (1): 20/103 kB Progress (1): 36/103 kBProgress (1): 52/103 kBProgress (1): 69/103 kBProgress (1): 85/103 kBProgress (2): 85/103 kB | 7.7 kBProgress (2): 101/103 kB | 7.7 kBProgress (2): 103 kB | 7.7 kB                                 Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar (103 kB at 1.2 MB/s)
-Downloaded from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar (7.7 kB at 86 kB/s)
-Progress (1): 7.7/189 kBProgress (1): 16/189 kB Progress (1): 32/189 kBProgress (1): 49/189 kBProgress (2): 49/189 kB | 7.7/169 kBProgress (2): 49/189 kB | 16/169 kB Progress (2): 61/189 kB | 16/169 kBProgress (2): 77/189 kB | 16/169 kBProgress (2): 93/189 kB | 16/169 kBProgress (2): 110/189 kB | 16/169 kBProgress (2): 110/189 kB | 32/169 kBProgress (2): 126/189 kB | 32/169 kBProgress (2): 142/189 kB | 32/169 kBProgress (2): 159/189 kB | 32/169 kBProgress (2): 175/189 kB | 32/169 kBProgress (2): 189 kB | 32/169 kB    Progress (2): 189 kB | 48/169 kB                                Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar (189 kB at 1.8 MB/s)
-Progress (1): 65/169 kBProgress (1): 81/169 kBProgress (1): 97/169 kBProgress (1): 114/169 kBProgress (1): 130/169 kBProgress (1): 147/169 kBProgress (1): 163/169 kBProgress (1): 169 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.9.3/junit-platform-launcher-1.9.3.jar (169 kB at 1.3 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.11.0/junit-platform-launcher-1.11.0.pom
-Progress (1): 969 BProgress (1): 3.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.11.0/junit-platform-launcher-1.11.0.pom (3.0 kB at 33 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.11.0/junit-platform-launcher-1.11.0.jar
-Progress (1): 4.1/189 kBProgress (1): 20/189 kB Progress (1): 37/189 kBProgress (1): 53/189 kBProgress (1): 70/189 kBProgress (1): 86/189 kBProgress (1): 102/189 kBProgress (1): 119/189 kBProgress (1): 135/189 kBProgress (1): 152/189 kBProgress (1): 168/189 kBProgress (1): 184/189 kBProgress (1): 189 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.11.0/junit-platform-launcher-1.11.0.jar (189 kB at 1.5 MB/s)
-[INFO] 
-[INFO] -------------------------------------------------------
-[INFO]  T E S T S
-[INFO] -------------------------------------------------------
-[INFO] Running ec.edu.ug.gcs.grupod.AppTest
-2026-06-20 15:03:38.465 [main] INFO  ec.edu.ug.gcs.grupod.App - ========================================
-2026-06-20 15:03:38.493 [main] INFO  ec.edu.ug.gcs.grupod.App - GCS Maven Project - Grupo D
-2026-06-20 15:03:38.493 [main] INFO  ec.edu.ug.gcs.grupod.App - ========================================
-2026-06-20 15:03:38.494 [main] INFO  ec.edu.ug.gcs.grupod.App - Starting application...
-2026-06-20 15:03:38.495 [main] INFO  ec.edu.ug.gcs.grupod.App - 
---- Calculator Demonstration ---
-2026-06-20 15:03:38.516 [main] INFO  ec.edu.ug.gcs.grupod.App - Testing basic operations:
-2026-06-20 15:03:38.546 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - add(10.00, 5.00) = 15.0
-2026-06-20 15:03:38.547 [main] INFO  ec.edu.ug.gcs.grupod.App - 10 + 5 = 15.0
-2026-06-20 15:03:38.549 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - subtract(10.00, 5.00) = 5.0
-2026-06-20 15:03:38.554 [main] INFO  ec.edu.ug.gcs.grupod.App - 10 - 5 = 5.0
-2026-06-20 15:03:38.556 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - multiply(10.00, 5.00) = 50.0
-2026-06-20 15:03:38.557 [main] INFO  ec.edu.ug.gcs.grupod.App - 10 * 5 = 50.0
-2026-06-20 15:03:38.559 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - divide(10.00, 5.00) = 2.0
-2026-06-20 15:03:38.560 [main] INFO  ec.edu.ug.gcs.grupod.App - 10 / 5 = 2.0
-2026-06-20 15:03:38.561 [main] INFO  ec.edu.ug.gcs.grupod.App - Testing edge case (division by zero):
-2026-06-20 15:03:38.562 [main] ERROR ec.edu.ug.gcs.grupod.Calculator - Division by zero attempted: 10.0 / 0.0
-2026-06-20 15:03:38.563 [main] ERROR ec.edu.ug.gcs.grupod.App - Caught expected exception: Divisor cannot be zero
-2026-06-20 15:03:38.563 [main] INFO  ec.edu.ug.gcs.grupod.App - 
---- StringProcessor Demonstration ---
-2026-06-20 15:03:38.573 [main] INFO  ec.edu.ug.gcs.grupod.App - Testing with string: 'hello world'
-2026-06-20 15:03:38.585 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - capitalize('hello world') = 'Hello world'
-2026-06-20 15:03:38.586 [main] INFO  ec.edu.ug.gcs.grupod.App - Capitalized: 'Hello world'
-2026-06-20 15:03:38.588 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - reverse('hello world') = 'dlrow olleh'
-2026-06-20 15:03:38.588 [main] INFO  ec.edu.ug.gcs.grupod.App - Reversed: 'dlrow olleh'
-2026-06-20 15:03:38.589 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - toUpperCase('hello world') = 'HELLO WORLD'
-2026-06-20 15:03:38.590 [main] INFO  ec.edu.ug.gcs.grupod.App - Uppercase: 'HELLO WORLD'
-2026-06-20 15:03:38.592 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - countVowels('hello world') = 3
-2026-06-20 15:03:38.593 [main] INFO  ec.edu.ug.gcs.grupod.App - Vowel count: 3
-2026-06-20 15:03:38.597 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - isPalindrome('racecar') = true
-2026-06-20 15:03:38.598 [main] INFO  ec.edu.ug.gcs.grupod.App - Is 'racecar' a palindrome? true
-2026-06-20 15:03:38.599 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - isBlank('   ') = true
-2026-06-20 15:03:38.601 [main] INFO  ec.edu.ug.gcs.grupod.App - Is '   ' blank? true
-2026-06-20 15:03:38.602 [main] INFO  ec.edu.ug.gcs.grupod.App - Application completed successfully
-2026-06-20 15:03:38.602 [main] INFO  ec.edu.ug.gcs.grupod.App - ========================================
-[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.900 s -- in ec.edu.ug.gcs.grupod.AppTest
-[INFO] Running ec.edu.ug.gcs.grupod.CalculatorTest
-2026-06-20 15:03:38.642 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - divide(10.00, 1.00) = 10.0
-2026-06-20 15:03:38.662 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - multiply(10.00, 5.00) = 50.0
-2026-06-20 15:03:38.672 [main] ERROR ec.edu.ug.gcs.grupod.Calculator - Division by zero attempted: 10.0 / 0.0
-2026-06-20 15:03:38.677 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - multiply(-10.00, -5.00) = 50.0
-2026-06-20 15:03:38.687 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - add(10.00, 0.00) = 10.0
-2026-06-20 15:03:38.696 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - divide(7.50, 2.50) = 3.0
-2026-06-20 15:03:38.703 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - add(10.00, 5.00) = 15.0
-2026-06-20 15:03:38.715 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - multiply(10.00, 0.00) = 0.0
-2026-06-20 15:03:38.720 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - add(-10.00, -5.00) = -15.0
-2026-06-20 15:03:38.726 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - divide(10.00, 5.00) = 2.0
-2026-06-20 15:03:38.733 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - divide(-10.00, -5.00) = 2.0
-2026-06-20 15:03:38.739 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - subtract(10.00, 5.00) = 5.0
-2026-06-20 15:03:38.746 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - add(10.00, -5.00) = 5.0
-2026-06-20 15:03:38.753 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - subtract(5.00, 10.00) = -5.0
-2026-06-20 15:03:38.756 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - divide(0.00, 5.00) = 0.0
-[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.122 s -- in ec.edu.ug.gcs.grupod.CalculatorTest
-[INFO] Running ec.edu.ug.gcs.grupod.StringProcessorTest
-2026-06-20 15:03:38.771 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - isBlank('null') = true
-2026-06-20 15:03:38.778 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - capitalize('hello') = 'Hello'
-2026-06-20 15:03:38.789 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - countVowels('hello world') = 3
-2026-06-20 15:03:38.796 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - isBlank(' hello ') = false
-2026-06-20 15:03:38.802 [main] WARN  ec.edu.ug.gcs.grupod.StringProcessor - countVowels called with null input
-2026-06-20 15:03:38.808 [main] WARN  ec.edu.ug.gcs.grupod.StringProcessor - toUpperCase called with null input
-2026-06-20 15:03:38.826 [main] WARN  ec.edu.ug.gcs.grupod.StringProcessor - isPalindrome called with null or empty input
-2026-06-20 15:03:38.831 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - isPalindrome('racecar') = true
-2026-06-20 15:03:38.839 [main] WARN  ec.edu.ug.gcs.grupod.StringProcessor - isPalindrome called with null or empty input
-2026-06-20 15:03:38.845 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - toUpperCase('hello123') = 'HELLO123'
-2026-06-20 15:03:38.849 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - countVowels('hello') = 2
-2026-06-20 15:03:38.856 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - isPalindrome('hello') = false
-2026-06-20 15:03:38.865 [main] WARN  ec.edu.ug.gcs.grupod.StringProcessor - capitalize called with null input
-2026-06-20 15:03:38.874 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - isBlank('hello') = false
-2026-06-20 15:03:38.882 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - isPalindrome('a man a plan a canal panama') = true
-2026-06-20 15:03:38.886 [main] WARN  ec.edu.ug.gcs.grupod.StringProcessor - reverse called with null input
-2026-06-20 15:03:38.890 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - capitalize('') = ''
-2026-06-20 15:03:38.898 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - reverse('hello') = 'olleh'
-2026-06-20 15:03:38.903 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - isBlank('   ') = true
-2026-06-20 15:03:38.907 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - reverse('hello world') = 'dlrow olleh'
-2026-06-20 15:03:38.913 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - countVowels('xyz') = 0
-2026-06-20 15:03:38.924 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - capitalize('hello world') = 'Hello world'
-2026-06-20 15:03:38.931 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - toUpperCase('hello') = 'HELLO'
-2026-06-20 15:03:38.943 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - isBlank('') = true
-[INFO] Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.186 s -- in ec.edu.ug.gcs.grupod.StringProcessorTest
-[INFO] 
-[INFO] Results:
-[INFO] 
-[INFO] Tests run: 41, Failures: 0, Errors: 0, Skipped: 0
-[INFO] 
-[WARNING] Could not delete temp directory /mnt/d/Ghosty/kb/university/2026-S1/GCS/maven-project/target/surefire because File /mnt/d/Ghosty/kb/university/2026-S1/GCS/maven-project/target/surefire/surefire_0-20260620150333934_2tmp unable to be deleted.
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD SUCCESS
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time:  26.312 s
-[INFO] Finished at: 2026-06-20T15:03:40-05:00
+[INFO] Total time:  22.541 s
+[INFO] Finished at: 2026-07-11T22:11:28-05:00
 [INFO] ------------------------------------------------------------------------

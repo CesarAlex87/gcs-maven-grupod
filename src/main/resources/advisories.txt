@@ -1,0 +1,12 @@
+# Base local de advisories (CVE) para depcheck  -  Proyecto final GCS, Grupo D
+# Formato:  cveId | groupId | artifactId | fixedVersion | severity | description
+# Regla del modelo: el advisory afecta a TODA version anterior a fixedVersion.
+# Datos tomados de CVEs publicos reales (NVD) - severidad segun banda CVSS v3.1.
+
+CVE-2021-44228 | org.apache.logging.log4j | log4j-core   | 2.15.0    | CRITICA | Log4Shell: ejecucion remota de codigo via lookups JNDI en mensajes de log.
+CVE-2021-45046 | org.apache.logging.log4j | log4j-core   | 2.16.0    | ALTA    | Correccion incompleta de Log4Shell: DoS y RCE en ciertas configuraciones.
+CVE-2022-42889 | org.apache.commons       | commons-text | 1.10.0    | CRITICA | Text4Shell: interpolacion de cadenas permite ejecucion de codigo.
+CVE-2022-42003 | com.fasterxml.jackson.core | jackson-databind | 2.13.4.2 | ALTA  | Consumo de recursos por profundidad de anidamiento en deserializacion.
+CVE-2015-6420  | commons-collections      | commons-collections | 3.2.2 | ALTA  | Deserializacion insegura de objetos Java (gadget InvokerTransformer).
+CVE-2022-1471  | org.yaml                 | snakeyaml    | 1.33      | ALTA    | Deserializacion insegura via Constructor por defecto (RCE).
+CVE-2020-13956 | org.apache.httpcomponents | httpclient  | 4.5.13    | MEDIA   | Interpretacion incorrecta de URIs malformadas.

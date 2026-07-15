@@ -1,4 +1,4 @@
-# Proyecto Final Maven — Grupo D
+# depcheck — Proyecto Final Maven (Grupo D)
 
 **Materia:** Gestión de la Configuración del Software (GCSW)
 **Docente:** Ph.D. Franklin Parrales Bravo
@@ -13,71 +13,92 @@
 
 ## Descripción
 
-Proyecto Java creado con el arquetipo `maven-archetype-quickstart`, que demuestra la gestión completa del ciclo de vida de construcción con Apache Maven: configuración de coordenadas GAV, gestión de dependencias externas, pruebas unitarias con JUnit 5 y empaquetado/instalación del artefacto.
+Escáner de vulnerabilidades en dependencias Maven. Lee una lista de coordenadas
+Maven (`groupId:artifactId:version`), las cruza contra una base local de *advisories*
+(CVE reales) y reporta las dependencias vulnerables con su severidad y la versión
+en la que se corrige.
+
+El proyecto demuestra la gestión completa del ciclo de vida de construcción con
+Apache Maven: coordenadas GAV, gestión de dependencias externas, pruebas unitarias
+con JUnit 5 y empaquetado/instalación del artefacto.
 
 ## Coordenadas del proyecto (GAV)
 
 | Campo | Valor |
 |-------|-------|
 | `groupId` | `ec.edu.ug.gcs.grupod` |
-| `artifactId` | `maven-project` |
-| `version` | `1.0-SNAPSHOT` |
+| `artifactId` | `depcheck` |
+| `version` | `1.0.0` |
 | Java | 21 |
 
 ## Dependencias (declaradas en `pom.xml`)
 
-| Dependencia | Versión | Propósito | Scope |
-|-------------|---------|-----------|-------|
-| JUnit 5 (Jupiter: api, params, engine — vía `junit-bom`) | 5.11.0 | Framework de pruebas unitarias | `test` |
-| Apache Log4j2 (`log4j-api`, `log4j-core`) | 2.23.1 | Logging estructurado (consola + archivo, config en `src/main/resources/log4j2.xml`) | compile |
-| Apache Commons Lang3 | 3.14.0 | Utilidades de manipulación de cadenas (`StringUtils`) | compile |
+| Dependencia | Versión | Scope | Propósito |
+|-------------|---------|-------|-----------|
+| `org.junit.jupiter:junit-jupiter` | 5.11.3 | `test` | Framework de pruebas unitarias (22 tests). No viaja en el artefacto final. |
+| `org.apache.logging.log4j:log4j-core` (+ `log4j-api`) | 2.23.1 | compile | Logging estructurado: registra cada dependencia escaneada y emite ERROR/WARN por hallazgo según severidad (config en `src/main/resources/log4j2.xml`). |
+| `org.apache.commons:commons-lang3` | 3.14.0 | compile | `Validate` (precondiciones al parsear GAV), `StringUtils.split` (parseo de coordenadas y del CSV de advisories), builders de equals/hashCode/toString. |
 
-Plugin de ejecución de pruebas: **Maven Surefire 3.3.0**.
+## Ciclo de vida Maven (comandos ejecutados)
+
+```bash
+mvn validate      # valida el POM y la estructura
+mvn test          # compila y ejecuta las 22 pruebas unitarias
+mvn package       # genera el uber-jar ejecutable target/depcheck-1.0.0.jar
+mvn install       # publica el artefacto en el repositorio local ~/.m2
+```
+
+Las salidas reales de cada fase están capturadas como evidencia en
+`output-validate.txt`, `output-test.txt`, `output-package.txt`,
+`output-install.txt` y `output-run.txt`.
+
+## Ejecución
+
+```bash
+# Con la lista de ejemplo embebida:
+java -jar target/depcheck-1.0.0.jar
+
+# Con tu propia lista de dependencias (una coordenada GAV por línea):
+java -jar target/depcheck-1.0.0.jar mis-deps.txt
+```
+
+Código de salida: `0` sin hallazgos, `1` si hay al menos una dependencia vulnerable
+(pensado para integrarse en un pipeline CI/CD).
+
+## Reproducción
+
+Requisitos: JDK 21 y Maven 3.9+.
+
+```bash
+git clone https://github.com/CesarAlex87/gcs-maven-grupod.git
+cd gcs-maven-grupod
+mvn install        # corre validate → test → package → install
+java -jar target/depcheck-1.0.0.jar
+```
 
 ## Estructura
 
 ```
+depcheck/
 ├── pom.xml
-├── src/
-│   ├── main/
-│   │   ├── java/ec/edu/ug/gcs/grupod/
-│   │   │   ├── App.java              # Punto de entrada, integra las 3 dependencias
-│   │   │   ├── Calculator.java       # Operaciones aritméticas con validación
-│   │   │   └── StringProcessor.java  # Procesamiento de texto con Commons Lang3
-│   │   └── resources/log4j2.xml
-│   └── test/java/ec/edu/ug/gcs/grupod/
-│       ├── AppTest.java              # 2 pruebas
-│       ├── CalculatorTest.java       # 15 pruebas
-│       └── StringProcessorTest.java  # 24 pruebas
-├── docs/
-│   ├── Informe_Maven_GrupoD.pdf      # Informe técnico del proyecto
-│   └── Manual_Operaciones_GrupoD.pdf # Manual de operaciones
-└── output-*.txt                      # Evidencia de cada fase del ciclo de vida
-```
-
-## Ciclo de vida ejecutado
-
-```bash
-mvn validate   # Verifica la configuración del proyecto      → BUILD SUCCESS
-mvn test       # Compila y ejecuta las 41 pruebas unitarias   → Tests run: 41, Failures: 0, Errors: 0
-mvn package    # Genera target/maven-project-1.0-SNAPSHOT.jar → BUILD SUCCESS
-mvn install    # Instala el artefacto en ~/.m2/repository     → BUILD SUCCESS
-```
-
-Las salidas completas de cada fase están capturadas en `output-validate.txt`, `output-test.txt`, `output-package.txt` y `output-install.txt`.
-
-## Cómo reproducir
-
-Requisitos: JDK 21+ y Maven 3.9+.
-
-```bash
-git clone <este-repositorio>
-cd gcs-maven-grupod
-mvn install
-java -cp target/classes:$(mvn -q dependency:build-classpath -Dmdep.outputFile=/dev/stdout) ec.edu.ug.gcs.grupod.App
+├── src/main/java/ec/edu/ug/gcs/grupod/depcheck/
+│   ├── App.java                  # CLI / punto de entrada
+│   ├── Dependency.java           # value object GAV
+│   ├── VersionComparator.java    # orden semántico de versiones
+│   ├── Advisory.java             # aviso CVE
+│   ├── AdvisoryDatabase.java     # carga la base local
+│   ├── VulnerabilityScanner.java # motor de escaneo
+│   ├── Finding.java / ScanResult.java / Severity.java
+├── src/main/resources/
+│   ├── advisories.txt            # base local de CVE (delimitada por '|')
+│   ├── sample-deps.txt           # lista de ejemplo
+│   └── log4j2.xml                # configuración de logging
+├── src/test/java/.../depcheck/   # 4 clases de prueba, 22 tests
+├── output-*.txt                  # evidencia del ciclo de vida Maven
+└── docs/                         # Informe (PDF) y Manual de Operaciones (PDF)
 ```
 
 ## Documentación
 
-- [Informe técnico (PDF)](docs/Informe_Maven_GrupoD.pdf) — configuración, dependencias documentadas, capturas de las 4 fases y análisis de vulnerabilidades de dependencias.
-- [Manual de operaciones (PDF)](docs/Manual_Operaciones_GrupoD.pdf) — guía paso a paso de instalación, construcción y ejecución.
+- [`docs/Informe_Maven_depcheck_GrupoD.pdf`](docs/Informe_Maven_depcheck_GrupoD.pdf) — informe del proyecto (configuración, dependencias, comandos, pruebas).
+- [`docs/Manual_Operaciones_depcheck_GrupoD.pdf`](docs/Manual_Operaciones_depcheck_GrupoD.pdf) — manual de operaciones.

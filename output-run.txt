@@ -1,0 +1,27 @@
+22:12:46.798 [INFO ] App - Sin archivo de entrada: usando lista de ejemplo embebida /sample-deps.txt
+22:12:46.863 [INFO ] VulnerabilityScanner - Iniciando escaneo de 8 dependencias contra 7 advisories
+22:12:46.892 [ERROR] VulnerabilityScanner - [CRITICAL] org.apache.logging.log4j:log4j-core:2.14.1 -> CVE-2021-44228 : actualizar a >= 2.15.0
+22:12:46.893 [ERROR] VulnerabilityScanner - [HIGH] org.apache.logging.log4j:log4j-core:2.14.1 -> CVE-2021-45046 : actualizar a >= 2.16.0
+22:12:46.894 [ERROR] VulnerabilityScanner - [CRITICAL] org.apache.commons:commons-text:1.9.0 -> CVE-2022-42889 : actualizar a >= 1.10.0
+22:12:46.894 [ERROR] VulnerabilityScanner - [HIGH] commons-collections:commons-collections:3.2.1 -> CVE-2015-6420 : actualizar a >= 3.2.2
+22:12:46.895 [ERROR] VulnerabilityScanner - [HIGH] org.yaml:snakeyaml:1.30 -> CVE-2022-1471 : actualizar a >= 1.33
+22:12:46.896 [INFO ] VulnerabilityScanner - OK  org.apache.logging.log4j:log4j-core:2.23.1 -> sin advisories
+22:12:46.896 [INFO ] VulnerabilityScanner - OK  org.apache.commons:commons-lang3:3.14.0 -> sin advisories
+22:12:46.896 [INFO ] VulnerabilityScanner - OK  org.junit.jupiter:junit-jupiter:5.11.3 -> sin advisories
+22:12:46.896 [INFO ] VulnerabilityScanner - OK  com.google.guava:guava:33.2.1-jre -> sin advisories
+22:12:46.920 [INFO ] VulnerabilityScanner - Escaneo finalizado: Escaneadas 8 | hallazgos 5 (criticas 2, altas 3, medias 0, bajas 0) | seguras 4
+
+==================== REPORTE depcheck ====================
+[CRITICAL] org.apache.logging.log4j:log4j-core:2.14.1 -> CVE-2021-44228 : actualizar a >= 2.15.0
+        Log4Shell: ejecucion remota de codigo via lookups JNDI en mensajes de log.
+[HIGH] org.apache.logging.log4j:log4j-core:2.14.1 -> CVE-2021-45046 : actualizar a >= 2.16.0
+        Correccion incompleta de Log4Shell: DoS y RCE en ciertas configuraciones.
+[CRITICAL] org.apache.commons:commons-text:1.9.0 -> CVE-2022-42889 : actualizar a >= 1.10.0
+        Text4Shell: interpolacion de cadenas permite ejecucion de codigo.
+[HIGH] commons-collections:commons-collections:3.2.1 -> CVE-2015-6420 : actualizar a >= 3.2.2
+        Deserializacion insegura de objetos Java (gadget InvokerTransformer).
+[HIGH] org.yaml:snakeyaml:1.30 -> CVE-2022-1471 : actualizar a >= 1.33
+        Deserializacion insegura via Constructor por defecto (RCE).
+----------------------------------------------------------
+Escaneadas 8 | hallazgos 5 (criticas 2, altas 3, medias 0, bajas 0) | seguras 4
+==========================================================

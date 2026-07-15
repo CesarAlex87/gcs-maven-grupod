@@ -1,8 +1,22 @@
+# Maven
 target/
-logs/
+dependency-reduced-pom.xml
 *.class
+
+# Logs
+logs/
 *.log
+
+# Evidencias de build (se regeneran con `mvn ...`)
+evidencia/
+
+# IDE
 .idea/
 *.iml
 .vscode/
+.settings/
+.classpath
+.project
+
+# SO
 .DS_Store
