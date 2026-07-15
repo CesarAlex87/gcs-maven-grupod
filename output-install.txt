@@ -1,0 +1,153 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< ec.edu.ug.gcs.grupod:maven-project >-----------------
+[INFO] Building maven-project 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ maven-project ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ maven-project ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ maven-project ---
+[INFO] skip non existing resourceDirectory /mnt/d/Ghosty/kb/university/2026-S1/GCS/maven-project/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ maven-project ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- surefire:3.3.0:test (default-test) @ maven-project ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running ec.edu.ug.gcs.grupod.AppTest
+2026-06-20 15:04:38.414 [main] INFO  ec.edu.ug.gcs.grupod.App - ========================================
+2026-06-20 15:04:38.447 [main] INFO  ec.edu.ug.gcs.grupod.App - GCS Maven Project - Grupo D
+2026-06-20 15:04:38.449 [main] INFO  ec.edu.ug.gcs.grupod.App - ========================================
+2026-06-20 15:04:38.451 [main] INFO  ec.edu.ug.gcs.grupod.App - Starting application...
+2026-06-20 15:04:38.452 [main] INFO  ec.edu.ug.gcs.grupod.App - 
+--- Calculator Demonstration ---
+2026-06-20 15:04:38.478 [main] INFO  ec.edu.ug.gcs.grupod.App - Testing basic operations:
+2026-06-20 15:04:38.508 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - add(10.00, 5.00) = 15.0
+2026-06-20 15:04:38.510 [main] INFO  ec.edu.ug.gcs.grupod.App - 10 + 5 = 15.0
+2026-06-20 15:04:38.512 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - subtract(10.00, 5.00) = 5.0
+2026-06-20 15:04:38.513 [main] INFO  ec.edu.ug.gcs.grupod.App - 10 - 5 = 5.0
+2026-06-20 15:04:38.514 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - multiply(10.00, 5.00) = 50.0
+2026-06-20 15:04:38.516 [main] INFO  ec.edu.ug.gcs.grupod.App - 10 * 5 = 50.0
+2026-06-20 15:04:38.522 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - divide(10.00, 5.00) = 2.0
+2026-06-20 15:04:38.524 [main] INFO  ec.edu.ug.gcs.grupod.App - 10 / 5 = 2.0
+2026-06-20 15:04:38.525 [main] INFO  ec.edu.ug.gcs.grupod.App - Testing edge case (division by zero):
+2026-06-20 15:04:38.526 [main] ERROR ec.edu.ug.gcs.grupod.Calculator - Division by zero attempted: 10.0 / 0.0
+2026-06-20 15:04:38.527 [main] ERROR ec.edu.ug.gcs.grupod.App - Caught expected exception: Divisor cannot be zero
+2026-06-20 15:04:38.529 [main] INFO  ec.edu.ug.gcs.grupod.App - 
+--- StringProcessor Demonstration ---
+2026-06-20 15:04:38.557 [main] INFO  ec.edu.ug.gcs.grupod.App - Testing with string: 'hello world'
+2026-06-20 15:04:38.564 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - capitalize('hello world') = 'Hello world'
+2026-06-20 15:04:38.565 [main] INFO  ec.edu.ug.gcs.grupod.App - Capitalized: 'Hello world'
+2026-06-20 15:04:38.572 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - reverse('hello world') = 'dlrow olleh'
+2026-06-20 15:04:38.574 [main] INFO  ec.edu.ug.gcs.grupod.App - Reversed: 'dlrow olleh'
+2026-06-20 15:04:38.575 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - toUpperCase('hello world') = 'HELLO WORLD'
+2026-06-20 15:04:38.576 [main] INFO  ec.edu.ug.gcs.grupod.App - Uppercase: 'HELLO WORLD'
+2026-06-20 15:04:38.578 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - countVowels('hello world') = 3
+2026-06-20 15:04:38.579 [main] INFO  ec.edu.ug.gcs.grupod.App - Vowel count: 3
+2026-06-20 15:04:38.585 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - isPalindrome('racecar') = true
+2026-06-20 15:04:38.586 [main] INFO  ec.edu.ug.gcs.grupod.App - Is 'racecar' a palindrome? true
+2026-06-20 15:04:38.587 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - isBlank('   ') = true
+2026-06-20 15:04:38.589 [main] INFO  ec.edu.ug.gcs.grupod.App - Is '   ' blank? true
+2026-06-20 15:04:38.590 [main] INFO  ec.edu.ug.gcs.grupod.App - Application completed successfully
+2026-06-20 15:04:38.593 [main] INFO  ec.edu.ug.gcs.grupod.App - ========================================
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.202 s -- in ec.edu.ug.gcs.grupod.AppTest
+[INFO] Running ec.edu.ug.gcs.grupod.CalculatorTest
+2026-06-20 15:04:38.622 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - divide(10.00, 1.00) = 10.0
+2026-06-20 15:04:38.640 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - multiply(10.00, 5.00) = 50.0
+2026-06-20 15:04:38.662 [main] ERROR ec.edu.ug.gcs.grupod.Calculator - Division by zero attempted: 10.0 / 0.0
+2026-06-20 15:04:38.669 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - multiply(-10.00, -5.00) = 50.0
+2026-06-20 15:04:38.676 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - add(10.00, 0.00) = 10.0
+2026-06-20 15:04:38.684 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - divide(7.50, 2.50) = 3.0
+2026-06-20 15:04:38.694 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - add(10.00, 5.00) = 15.0
+2026-06-20 15:04:38.700 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - multiply(10.00, 0.00) = 0.0
+2026-06-20 15:04:38.710 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - add(-10.00, -5.00) = -15.0
+2026-06-20 15:04:38.717 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - divide(10.00, 5.00) = 2.0
+2026-06-20 15:04:38.722 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - divide(-10.00, -5.00) = 2.0
+2026-06-20 15:04:38.727 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - subtract(10.00, 5.00) = 5.0
+2026-06-20 15:04:38.736 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - add(10.00, -5.00) = 5.0
+2026-06-20 15:04:38.741 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - subtract(5.00, 10.00) = -5.0
+2026-06-20 15:04:38.745 [main] INFO  ec.edu.ug.gcs.grupod.Calculator - divide(0.00, 5.00) = 0.0
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.133 s -- in ec.edu.ug.gcs.grupod.CalculatorTest
+[INFO] Running ec.edu.ug.gcs.grupod.StringProcessorTest
+2026-06-20 15:04:38.759 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - isBlank('null') = true
+2026-06-20 15:04:38.763 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - capitalize('hello') = 'Hello'
+2026-06-20 15:04:38.767 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - countVowels('hello world') = 3
+2026-06-20 15:04:38.771 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - isBlank(' hello ') = false
+2026-06-20 15:04:38.778 [main] WARN  ec.edu.ug.gcs.grupod.StringProcessor - countVowels called with null input
+2026-06-20 15:04:38.781 [main] WARN  ec.edu.ug.gcs.grupod.StringProcessor - toUpperCase called with null input
+2026-06-20 15:04:38.793 [main] WARN  ec.edu.ug.gcs.grupod.StringProcessor - isPalindrome called with null or empty input
+2026-06-20 15:04:38.797 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - isPalindrome('racecar') = true
+2026-06-20 15:04:38.800 [main] WARN  ec.edu.ug.gcs.grupod.StringProcessor - isPalindrome called with null or empty input
+2026-06-20 15:04:38.803 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - toUpperCase('hello123') = 'HELLO123'
+2026-06-20 15:04:38.809 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - countVowels('hello') = 2
+2026-06-20 15:04:38.812 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - isPalindrome('hello') = false
+2026-06-20 15:04:38.816 [main] WARN  ec.edu.ug.gcs.grupod.StringProcessor - capitalize called with null input
+2026-06-20 15:04:38.819 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - isBlank('hello') = false
+2026-06-20 15:04:38.823 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - isPalindrome('a man a plan a canal panama') = true
+2026-06-20 15:04:38.829 [main] WARN  ec.edu.ug.gcs.grupod.StringProcessor - reverse called with null input
+2026-06-20 15:04:38.833 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - capitalize('') = ''
+2026-06-20 15:04:38.844 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - reverse('hello') = 'olleh'
+2026-06-20 15:04:38.849 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - isBlank('   ') = true
+2026-06-20 15:04:38.853 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - reverse('hello world') = 'dlrow olleh'
+2026-06-20 15:04:38.862 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - countVowels('xyz') = 0
+2026-06-20 15:04:38.866 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - capitalize('hello world') = 'Hello world'
+2026-06-20 15:04:38.870 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - toUpperCase('hello') = 'HELLO'
+2026-06-20 15:04:38.873 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - isBlank('') = true
+[INFO] Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.123 s -- in ec.edu.ug.gcs.grupod.StringProcessorTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 41, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ maven-project ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ maven-project ---
+[INFO] Installing /mnt/d/Ghosty/kb/university/2026-S1/GCS/maven-project/pom.xml to /home/cesar/.m2/repository/ec/edu/ug/gcs/grupod/maven-project/1.0-SNAPSHOT/maven-project-1.0-SNAPSHOT.pom
+[INFO] Installing /mnt/d/Ghosty/kb/university/2026-S1/GCS/maven-project/target/maven-project-1.0-SNAPSHOT.jar to /home/cesar/.m2/repository/ec/edu/ug/gcs/grupod/maven-project/1.0-SNAPSHOT/maven-project-1.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  11.725 s
+[INFO] Finished at: 2026-06-20T15:04:40-05:00
+[INFO] ------------------------------------------------------------------------
+ize('hello world') = 'Hello world'
+2026-06-20 15:04:33.254 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - toUpperCase('hello') = 'HELLO'
+2026-06-20 15:04:33.259 [main] INFO  ec.edu.ug.gcs.grupod.StringProcessor - isBlank('') = true
+[INFO] Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.181 s -- in ec.edu.ug.gcs.grupod.StringProcessorTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 41, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ maven-project ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ maven-project ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.9.18/maven-resolver-util-1.9.18.pom
+Progress (1): 830 BProgress (1): 2.1 kBProgress (1): 2.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.9.18/maven-resolver-util-1.9.18.pom (2.9 kB at 26 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver/1.9.18/maven-resolver-1.9.18.pom
+Progress (1): 755 BProgress (1): 1.7 kBProgress (1): 3.6 kBProgress (1): 8.3 kBProgress (1): 10.0 kBProgress (1): 14 kB  Progress (1): 18 kBProgress (1): 20 kBProgress (1): 22 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver/1.9.18/maven-resolver-1.9.18.pom (22 kB at 215 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.9.18/maven-resolver-api-1.9.18.pom
+Progress (1): 831 BProgress (1): 2.1 kBProgress (1): 2.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.9.18/maven-resolver-api-1.9.18.pom (2.7 kB at 27 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.9.18/maven-resolver-util-1.9.18.jar
+Progress (1): 0.9/196 kBProgress (1): 2.3/196 kBProgress (1): 3.6/196 kBProgress (1): 7.9/196 kBProgress (1): 12/196 kB Progress (1): 16/196 kBProgress (1): 21/196 kBProgress (1): 24/196 kBProgress (1): 28/196 kBProgress (1): 33/196 kBProgress (1): 37/196 kBProgress (1): 41/196 kBProgress (1): 45/196 kBProgress (1): 49/196 kBProgress (1): 54/196 kBProgress (1): 58/196 kBProgress (1): 62/196 kBProgress (1): 66/196 kBProgress (1): 71/196 kBProgress (1): 75/196 kBProgress (1): 79/196 kBProgress (1): 83/196 kBProgress (1): 88/196 kBProgress (1): 92/196 kBProgress (1): 96/196 kBProgress (1): 100/196 kBProgress (1): 104/196 kBProgress (1): 109/196 kBProgress (1): 113/196 kBProgress (1): 117/196 kBProgress (1): 121/196 kBProgress (1): 126/196 kBProgress (1): 130/196 kBProgress (1): 134/196 kBProgress (1): 138/196 kBProgress (1): 143/196 kBProgress (1): 147/196 kBProgress (1): 151/196 kBProgress (1): 155/196 kBProgress (1): 159/196 kBProgress (1): 164/196 kBProgress (1): 168/196 kBProgress (1): 172/196 kBProgress (1): 188/196 kBProgress (1): 196 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.9.18/maven-resolver-util-1.9.18.jar (196 kB at 916 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.9.18/maven-resolver-api-1.9.18.jar
+Progress (1): 7.7/157 kBProgress (1): 16/157 kB Progress (1): 29/157 kBProgress (1): 45/157 kBProgress (1): 61/157 kBProgress (1): 78/157 kBProgress (1): 94/157 kBProgress (1): 111/157 kBProgress (1): 127/157 kBProgress (1): 143/157 kBProgress (1): 157 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.9.18/maven-resolver-api-1.9.18.jar (157 kB at 1.1 MB/s)
+[INFO] Installing /mnt/d/Ghosty/kb/university/2026-S1/GCS/maven-project/pom.xml to /home/cesar/.m2/repository/ec/edu/ug/gcs/grupod/maven-project/1.0-SNAPSHOT/maven-project-1.0-SNAPSHOT.pom
+[INFO] Installing /mnt/d/Ghosty/kb/university/2026-S1/GCS/maven-project/target/maven-project-1.0-SNAPSHOT.jar to /home/cesar/.m2/repository/ec/edu/ug/gcs/grupod/maven-project/1.0-SNAPSHOT/maven-project-1.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  14.100 s
+[INFO] Finished at: 2026-06-20T15:04:36-05:00
+[INFO] ------------------------------------------------------------------------
