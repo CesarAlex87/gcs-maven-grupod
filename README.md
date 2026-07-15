@@ -7,9 +7,10 @@
 ## Integrantes (Grupo D)
 
 - Tipán Antón César Alexander
-- Camillie Ayovi
-- Erick Córdova
-- Mateo Aguilar
+- Ayovi Villafuerte Camillie Thais
+- Córdova Viteri Erick Alejandro
+- Aguilar Villafuerte Daniel Mateo
+- Carrillo Omar Andrés
 
 ## Descripción
 
